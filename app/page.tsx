@@ -54,17 +54,17 @@ export default function HomePage() {
               <HeroCarousel />
             </div>
             <div className="flex flex-col sm:flex-row gap-4 p-2 justify-center">
-                <Button size="lg" variant="secondary" className="text-blue-900 hover:bg-gray-100">
+                <Button size="lg" variant="secondary" className="font-bold hover:bg-orange-400 hover:text-white text-orange-600 bg-white border border-orange-500 ">
                   <Link href="#testimonies">Learn More</Link>
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white  hover:bg-white text-blue-900"
+                  className=" hover:text-white text-blue-900 border bg-white border-blue-900 hover:bg-blue-900 hover:border-blue-400"
                 >
                   <Link href="#ministry">Get Involved</Link>
                 </Button>
-                <Button size="lg" className="bg-orange-400 hover:bg-orange-600 text-white">
+                <Button size="lg" variant="secondary" className="font-bold hover:bg-orange-400 hover:text-white text-orange-800 bg-orange-100 border border-orange-700 ">
                   <Link href="#donate">Donate Now</Link>
                 </Button>
               </div>
