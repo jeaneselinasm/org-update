@@ -23,12 +23,12 @@ export default function HomePage() {
                 >
                   About
                 </Link>
-                <Link
+                {/* <Link
                   href="#get-involved"
                   className="text-gray-700 hover:text-blue-900 px-3 py-2 text-sm font-medium transition-colors"
                 >
                   Get Involved
-                </Link>
+                </Link> */}
                 <Link
                   href="#translations"
                   className="text-gray-700 hover:text-blue-900 px-3 py-2 text-sm font-medium transition-colors"
