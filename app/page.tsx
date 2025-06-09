@@ -43,11 +43,11 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-blue-50  py-4">
+      <section className="bg-[#F0F6FF] py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-orange-400">Every Tribe Every Language <br /> God’s Word in Every Heart</h1>
-            <p className="text-xl md:text-2xl mb-4 max-w-3xl mx-auto text-blue-900">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#F97316]">Every Tribe Every Language <br /> God’s Word in Every Heart</h1>
+            <p className="text-lg md:text-2xl mb-4 max-w-3xl mx-auto text-slate-500">
             Partnering with churches and communities across Indonesia and Timor Leste to bring the Bible to life in every local language.
             </p>
            <div className="mb-2 lg:pl-8">
