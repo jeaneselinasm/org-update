@@ -43,20 +43,19 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section className=" bg-gradient-to-r from-blue-900 to-blue-700 text-white py-4">
+      <section className="bg-blue-50  py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">Translate Bible into Every Language</h1>
-            <p className="text-xl md:text-2xl mb-4 max-w-3xl mx-auto text-blue-100">
-              Bringing God's Word to every tribe and tongue across Indonesia. Join us in making the Bible accessible to
-              all people in their heart language.
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-orange-400">Every Tribe Every Language <br /> God’s Word in Every Heart</h1>
+            <p className="text-xl md:text-2xl mb-4 max-w-3xl mx-auto text-blue-900">
+            Partnering with churches and communities across Indonesia and Timor Leste to bring the Bible to life in every local language.
             </p>
            <div className="mb-2 lg:pl-8">
               <HeroCarousel />
             </div>
             <div className="flex flex-col sm:flex-row gap-4 p-2 justify-center">
                 <Button size="lg" variant="secondary" className="text-blue-900 hover:bg-gray-100">
-                  <Link href="#testimonies">Read Testimonies</Link>
+                  <Link href="#testimonies">Learn More</Link>
                 </Button>
                 <Button
                   size="lg"
