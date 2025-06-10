@@ -4,6 +4,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { MapPin, Users, BookOpen, FileText, Printer, Instagram, Youtube, Phone, Mail, MapIcon } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import { Button_v2 } from "@/components/ui/button-shine-2"
 
 export default function HomePage() {
   return (
@@ -54,19 +55,17 @@ export default function HomePage() {
               <HeroCarousel />
             </div>
             <div className="flex flex-col sm:flex-row gap-4 p-2 justify-center">
-                <Button size="lg" variant="secondary" className="font-bold hover:bg-orange-400 hover:text-white text-orange-600 bg-white border border-orange-500 ">
+                <Button size="default" variant="secondary" className="font-bold hover:bg-orange-400 hover:text-white text-orange-600 bg-white border border-orange-500 ">
                   <Link href="#testimonies">Learn More</Link>
                 </Button>
                 <Button
-                  size="lg"
+                  size="default"
                   variant="outline"
-                  className=" hover:text-white text-blue-900 border bg-white border-blue-900 hover:bg-blue-900 hover:border-blue-400"
+                  className=" hover:text-white text-blue-900 border bg-white border-blue-900 hover:bg-blue-900 hover:border-blue-900"
                 >
                   <Link href="#ministry">Get Involved</Link>
                 </Button>
-                <Button size="lg" variant="secondary" className="font-bold hover:bg-orange-400 hover:text-white text-orange-800 bg-orange-100 border border-orange-700 ">
-                  <Link href="#donate">Donate Now</Link>
-                </Button>
+                <Button_v2 children='Donate Now' className="bg-orange-400"></Button_v2>
               </div>
           </div>
         </div>
