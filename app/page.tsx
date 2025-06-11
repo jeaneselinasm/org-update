@@ -1,13 +1,13 @@
 import HeroCarousel from "@/components/hero-carousel"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { MapPin, Users, BookOpen, FileText, Printer, Instagram, Youtube, Phone, Mail, MapIcon } from "lucide-react"
+import { MapPin, Users, BookOpen, FileText, Printer, Instagram, Youtube, Phone, Mail, MapIcon, ArrowRight } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { Button_v2 } from "@/components/ui/button-shine-2"
 import { NumberTicker } from "@/components/magicui/number-ticker"
 import { MorphingDialogBasicOne } from "@/components/motion-primitives/morphing-dialog-basic-one"
-
+import { Badge } from "@/components/ui/badge"
 
 
 export default function HomePage() {
@@ -169,12 +169,12 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Testimonies</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-orange-500">Testimonies</h2>
             <p className="text-xl text-gray-600">Hear how God's Word is transforming lives across Indonesia</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-lg transition-shadow bg-zinc-50">
               <CardContent className="pt-6">
                 <p className="text-gray-700 italic mb-4">
                   "When I first heard the Gospel in my own language, it was like my heart was opened for the first time.
@@ -188,14 +188,15 @@ export default function HomePage() {
                     height={80}
                     className="rounded-full mx-auto mb-2"
                   />
-                  <p className="font-semibold text-gray-900">Maria Situmorang</p>
+                  <p className="font-semibold text-blue-900">Maria Situmorang</p>
                 </div>
               </CardContent>
               <CardFooter className="flex justify-between items-center">
-                <span className="text-sm text-gray-600">Batak Language</span>
-                <Button variant="ghost" size="sm">
+                <Badge variant="secondary" className="bg-orange-100 h-8 w-2/4 text-sm text-orange-500">Batak Language</Badge>
+                {/* <span className="text-sm text-gray-600">Batak Language</span> */}
+                {/* <Button variant="ghost" className="text-sm text-blue-500 hover:bg-blue-100" rightIcon={<ArrowRight />} size="sm">
                   Read More
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
 
