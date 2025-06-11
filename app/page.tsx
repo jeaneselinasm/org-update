@@ -1,12 +1,29 @@
-import HeroCarousel from "@/components/hero-carousel"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { MapPin, Users, BookOpen, FileText, Printer, Instagram, Youtube, Phone, Mail, MapIcon } from "lucide-react"
-import Image from "next/image"
-import Link from "next/link"
-import { Button_v2 } from "@/components/ui/button-shine-2"
-import { NumberTicker } from "@/components/magicui/number-ticker"
-
+import HeroCarousel from "@/components/hero-carousel";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import {
+  MapPin,
+  Users,
+  BookOpen,
+  FileText,
+  Printer,
+  Instagram,
+  Youtube,
+  Phone,
+  Mail,
+  MapIcon,
+} from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { Button_v2 } from "@/components/ui/button-shine-2";
+import { NumberTicker } from "@/components/magicui/number-ticker";
+import { MorphingDialogBasicOne } from "@/components/motion-primitives/morphing-dialog-basic-one";
 
 export default function HomePage() {
   return (
@@ -38,7 +55,9 @@ export default function HomePage() {
                 >
                   Translations
                 </Link>
-                <Button className="bg-blue-900 hover:bg-blue-800">Contact</Button>
+                <Button className="bg-blue-900 hover:bg-blue-800">
+                  Contact
+                </Button>
               </div>
             </div>
           </div>
@@ -49,26 +68,36 @@ export default function HomePage() {
       <section className="bg-[#F0F6FF] py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#F97316]">Every Tribe Every Language <br /> God’s Word in Every Heart</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#F97316]">
+              Every Tribe Every Language <br /> God’s Word in Every Heart
+            </h1>
             <p className="text-lg md:text-2xl mb-4 max-w-3xl mx-auto text-slate-500">
-            Partnering with churches and communities across Indonesia and Timor Leste to bring the Bible to life in every local language.
+              Partnering with churches and communities across Indonesia and
+              Timor Leste to bring the Bible to life in every local language.
             </p>
-           <div className="mb-2 lg:pl-8">
+            <div className="mb-2 lg:pl-8">
               <HeroCarousel />
             </div>
             <div className="flex flex-col sm:flex-row gap-4 p-2 justify-center">
-                <Button size="default" variant="secondary" className="font-bold hover:bg-orange-400 hover:text-white text-orange-600 bg-white border border-orange-500 ">
-                  <Link href="#testimonies">Learn More</Link>
-                </Button>
-                <Button
-                  size="default"
-                  variant="outline"
-                  className=" hover:text-white text-blue-900 border bg-white border-blue-900 hover:bg-blue-900 hover:border-blue-900"
-                >
-                  <Link href="#ministry">Get Involved</Link>
-                </Button>
-                <Button_v2 children='Donate Now' className="bg-orange-400"></Button_v2>
-              </div>
+              <Button
+                size="default"
+                variant="secondary"
+                className="font-bold hover:bg-orange-400 hover:text-white text-orange-600 bg-white border border-orange-500 "
+              >
+                <Link href="#testimonies">Learn More</Link>
+              </Button>
+              <Button
+                size="default"
+                variant="outline"
+                className=" hover:text-white text-blue-900 border bg-white border-blue-900 hover:bg-blue-900 hover:border-blue-900"
+              >
+                <Link href="#ministry">Get Involved</Link>
+              </Button>
+              <Button_v2
+                children="Donate Now"
+                className="bg-orange-400"
+              ></Button_v2>
+            </div>
           </div>
         </div>
       </section>
@@ -77,9 +106,12 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Our Impact Across Indonesia</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+              Our Impact Across Indonesia
+            </h2>
             <p className="text-xl text-gray-600">
-              See how God is working through Bible translation across the archipelago
+              See how God is working through Bible translation across the
+              archipelago
             </p>
           </div>
 
@@ -90,7 +122,9 @@ export default function HomePage() {
                 <div className="text-center">
                   <MapIcon className="h-16 w-16 text-blue-600 mx-auto mb-4" />
                   <p className="text-blue-800 font-semibold">Indonesia Map</p>
-                  <p className="text-blue-600 text-sm">Translation Projects Across the Nation</p>
+                  <p className="text-blue-600 text-sm">
+                    Translation Projects Across the Nation
+                  </p>
                 </div>
               </div>
             </div>
@@ -100,13 +134,27 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6">
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
-              <NumberTicker value={1245} decimalPlaces={0} startValue={0} className="text-2xl font-bold text-gray-900">  </NumberTicker>
+              <NumberTicker
+                value={1245}
+                decimalPlaces={0}
+                startValue={0}
+                className="text-2xl font-bold text-gray-900"
+              >
+                {" "}
+              </NumberTicker>
               {/* <div className="text-2xl font-bold text-gray-900">1,247</div> */}
               <div className="text-sm text-gray-600">Trained People</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <MapPin className="h-8 w-8 text-green-600 mx-auto mb-2" />
-               <NumberTicker value={130} decimalPlaces={0} startValue={0} className="text-2xl font-bold text-gray-900">  </NumberTicker>
+              <NumberTicker
+                value={130}
+                decimalPlaces={0}
+                startValue={0}
+                className="text-2xl font-bold text-gray-900"
+              >
+                {" "}
+              </NumberTicker>
               <div className="text-sm text-gray-600">Active Projects</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
@@ -139,64 +187,35 @@ export default function HomePage() {
       </section>
 
       {/* Our Ministry Section */}
-      <section className="py-20">
+      <section className="py-16 bg-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Ministry</h2>
-            <p className="text-xl text-gray-600">Three pillars of our mission to serve communities across Indonesia</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-4">
+              Our Ministry
+            </h2>
+            <p className="text-xl text-gray-600">
+              Three pillars of our mission to serve communities across Indonesia
+            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <CardTitle className="text-xl text-blue-900">Bible Translation Training</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600 mb-4">
-                  Equipping local communities with the skills and knowledge needed to translate God's Word into their
-                  heart languages with accuracy and cultural sensitivity.
-                </p>
-              </CardContent>
-              <CardFooter>
-                <Button variant="outline" className="w-full">
-                  See Detail
-                </Button>
-              </CardFooter>
-            </Card>
+            <MorphingDialogBasicOne
+              title="Bible Translation Training"
+              subtitle="Equipping local communities with the skills and knowledge needed to translate God's Word into their
+                  heart languages with accuracy and cultural sensitivity."
+            />
 
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <CardTitle className="text-xl text-blue-900">Open Bible Education</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600 mb-4">
-                  Providing accessible biblical education and literacy programs to help communities understand and
-                  engage with Scripture in their own language.
-                </p>
-              </CardContent>
-              <CardFooter>
-                <Button variant="outline" className="w-full">
-                  See Detail
-                </Button>
-              </CardFooter>
-            </Card>
+            <MorphingDialogBasicOne
+              title="Open Bible Education"
+              subtitle="Providing accessible biblical education and literacy programs to help communities understand and
+                  engage with Scripture in their own language."
+            />
 
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <CardTitle className="text-xl text-blue-900">Community Development</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600 mb-4">
-                  Supporting holistic community development through education, healthcare, and economic empowerment
-                  alongside Bible translation work.
-                </p>
-              </CardContent>
-              <CardFooter>
-                <Button variant="outline" className="w-full">
-                  See Detail
-                </Button>
-              </CardFooter>
-            </Card>
+            <MorphingDialogBasicOne
+              title="Community Development"
+              subtitle="Supporting holistic community development through education, healthcare, and economic empowerment
+                  alongside Bible translation work."
+            />
           </div>
         </div>
       </section>
@@ -205,16 +224,21 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Testimonies</h2>
-            <p className="text-xl text-gray-600">Hear how God's Word is transforming lives across Indonesia</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Testimonies
+            </h2>
+            <p className="text-xl text-gray-600">
+              Hear how God's Word is transforming lives across Indonesia
+            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <p className="text-gray-700 italic mb-4">
-                  "When I first heard the Gospel in my own language, it was like my heart was opened for the first time.
-                  Now our entire village gathers to hear God's Word in Batak."
+                  "When I first heard the Gospel in my own language, it was like
+                  my heart was opened for the first time. Now our entire village
+                  gathers to hear God's Word in Batak."
                 </p>
                 <div className="text-center">
                   <Image
@@ -224,7 +248,9 @@ export default function HomePage() {
                     height={80}
                     className="rounded-full mx-auto mb-2"
                   />
-                  <p className="font-semibold text-gray-900">Maria Situmorang</p>
+                  <p className="font-semibold text-gray-900">
+                    Maria Situmorang
+                  </p>
                 </div>
               </CardContent>
               <CardFooter className="flex justify-between items-center">
@@ -238,8 +264,9 @@ export default function HomePage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <p className="text-gray-700 italic mb-4">
-                  "Being part of the translation team has been the greatest honor of my life. Seeing my people
-                  understand Scripture in Javanese brings tears of joy."
+                  "Being part of the translation team has been the greatest
+                  honor of my life. Seeing my people understand Scripture in
+                  Javanese brings tears of joy."
                 </p>
                 <div className="text-center">
                   <Image
@@ -263,8 +290,9 @@ export default function HomePage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <p className="text-gray-700 italic mb-4">
-                  "The children in our village now sing Bible songs in Sundanese. It's beautiful to see how God's Word
-                  comes alive in our mother tongue."
+                  "The children in our village now sing Bible songs in
+                  Sundanese. It's beautiful to see how God's Word comes alive in
+                  our mother tongue."
                 </p>
                 <div className="text-center">
                   <Image
@@ -278,7 +306,9 @@ export default function HomePage() {
                 </div>
               </CardContent>
               <CardFooter className="flex justify-between items-center">
-                <span className="text-sm text-gray-600">Sundanese Language</span>
+                <span className="text-sm text-gray-600">
+                  Sundanese Language
+                </span>
                 <Button variant="ghost" size="sm">
                   Read More
                 </Button>
@@ -296,13 +326,15 @@ export default function HomePage() {
             <div>
               <h3 className="text-2xl font-bold mb-4">Bahtraku</h3>
               <p className="text-gray-300">
-                Translating God's Word into every language across Indonesia, bringing hope and transformation to
-                communities.
+                Translating God's Word into every language across Indonesia,
+                bringing hope and transformation to communities.
               </p>
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4">Registration Information</h4>
+              <h4 className="text-lg font-semibold mb-4">
+                Registration Information
+              </h4>
               <p className="text-gray-300 text-sm">
                 Bahtraku Foundation
                 <br />
@@ -317,10 +349,16 @@ export default function HomePage() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Connect With Us</h4>
               <div className="flex space-x-4">
-                <Link href="#" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   <Instagram className="h-6 w-6" />
                 </Link>
-                <Link href="#" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   <Youtube className="h-6 w-6" />
                 </Link>
               </div>
@@ -340,14 +378,19 @@ export default function HomePage() {
           {/* Second Row */}
           <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-6 mb-4 md:mb-0">
-              <Link href="#" className="text-gray-300 hover:text-white text-sm transition-colors">
+              <Link
+                href="#"
+                className="text-gray-300 hover:text-white text-sm transition-colors"
+              >
                 Privacy Policy
               </Link>
             </div>
-            <div className="text-gray-300 text-sm">© 2025 Bahtraku. All rights reserved.</div>
+            <div className="text-gray-300 text-sm">
+              © 2025 Bahtraku. All rights reserved.
+            </div>
           </div>
         </div>
       </footer>
     </div>
-  )
+  );
 }
