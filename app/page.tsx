@@ -115,27 +115,27 @@ export default function HomePage() {
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <BookOpen className="h-8 w-8 text-purple-600 mx-auto mb-2" />
-              <div className="text-2xl font-bold text-gray-900">34</div>
+            <NumberTicker value={35} decimalPlaces={0} startValue={0} className="text-2xl font-bold text-gray-900">  </NumberTicker>
               <div className="text-sm text-gray-600">New Testament</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <BookOpen className="h-8 w-8 text-orange-600 mx-auto mb-2" />
-              <div className="text-2xl font-bold text-gray-900">12</div>
+                <NumberTicker value={7} decimalPlaces={0} startValue={0} className="text-2xl font-bold text-gray-900">  </NumberTicker>
               <div className="text-sm text-gray-600">Old Testament</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <FileText className="h-8 w-8 text-red-600 mx-auto mb-2" />
-              <div className="text-2xl font-bold text-gray-900">2,847</div>
+              <NumberTicker value={2847} decimalPlaces={0} startValue={0} className="text-2xl font-bold text-gray-900">  </NumberTicker>
               <div className="text-sm text-gray-600">Chapters</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <FileText className="h-8 w-8 text-indigo-600 mx-auto mb-2" />
-              <div className="text-2xl font-bold text-gray-900">89,234</div>
+              <NumberTicker value={827163} decimalPlaces={0} startValue={0} className="text-2xl font-bold text-gray-900">  </NumberTicker>
               <div className="text-sm text-gray-600">Verses</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <Printer className="h-8 w-8 text-teal-600 mx-auto mb-2" />
-              <div className="text-2xl font-bold text-gray-900">15,678</div>
+             <NumberTicker value={18} decimalPlaces={0} startValue={0} className="text-2xl font-bold text-gray-900">  </NumberTicker>
               <div className="text-sm text-gray-600">Printed Bibles</div>
             </div>
           </div>
