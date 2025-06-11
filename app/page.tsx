@@ -5,6 +5,8 @@ import { MapPin, Users, BookOpen, FileText, Printer, Instagram, Youtube, Phone, 
 import Image from "next/image"
 import Link from "next/link"
 import { Button_v2 } from "@/components/ui/button-shine-2"
+import { NumberTicker } from "@/components/magicui/number-ticker"
+
 
 export default function HomePage() {
   return (
@@ -98,12 +100,13 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6">
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
-              <div className="text-2xl font-bold text-gray-900">1,247</div>
+              <NumberTicker value={1245} decimalPlaces={0} startValue={0} className="text-2xl font-bold text-gray-900">  </NumberTicker>
+              {/* <div className="text-2xl font-bold text-gray-900">1,247</div> */}
               <div className="text-sm text-gray-600">Trained People</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <MapPin className="h-8 w-8 text-green-600 mx-auto mb-2" />
-              <div className="text-2xl font-bold text-gray-900">89</div>
+               <NumberTicker value={130} decimalPlaces={0} startValue={0} className="text-2xl font-bold text-gray-900">  </NumberTicker>
               <div className="text-sm text-gray-600">Active Projects</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
