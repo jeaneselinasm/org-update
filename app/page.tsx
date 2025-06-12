@@ -8,7 +8,12 @@ import { Button_v2 } from "@/components/ui/button-shine-2"
 import { NumberTicker } from "@/components/magicui/number-ticker"
 import { MorphingDialogBasicOne } from "@/components/motion-primitives/morphing-dialog-basic-one"
 import { Badge } from "@/components/ui/badge"
-
+import { RotateWords } from "@/components/rotate-words"
+import {Roboto_Mono, Montserrat, Inter, Roboto_Flex} from "next/font/google";
+const robotoMono = Roboto_Mono({subsets : ['latin']})
+const montserrat =Montserrat({subsets : ['latin']})
+const inter = Inter({subsets : ['latin']})
+const robotoFlex = Roboto_Flex({subsets : ['latin']})
 
 export default function HomePage() {
   return (
@@ -48,26 +53,28 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-[#F0F6FF] py-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-3xl md:text-5xl font-bold mb-6 text-blue-900">
-              <span className="text-[#F97316]"> Every</span> Tribe <span className="text-[#F97316]">Every</span> Language
-               <br /> God’s Word in <span className="text-[#F97316]"> Every </span> Heart</h1>
-            <p className="text-lg md:text-2xl mb-4 max-w-3xl mx-auto text-slate-500">
+      <section className="min-h-screen py-10 " style={{ backgroundImage: "url('/picsam1.png')", backgroundSize: 'center', backgroundPosition: 'center' }}>
+          <div className="h-full absolute inset-0 bg-black/50 "></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  md:mt-60 text-white font-bold">
+          <div className='font-light'>
+            <h1 className="text-3xl md:text-5xl mb-6 text-white ">
+              {/* <span className="text-[#F97316]"> Every</span> Tribe <span className="text-[#F97316]">Every</span> Language
+               <br /> God’s Word in <span className="text-[#F97316]"> Every </span> Heart */}
+               {/* Every Tribe Every Language  <br /> God's Word in Every Heart <br />  */}
+               <RotateWords text="Every" words={["Tribe", "Language"]}  />
+               God's Word in Every Heart
+               </h1>
+            <h2 className="text-lg md:text-2xl mb-4 max-w-3xl  text-left text-white">
             Partnering with churches and communities across Indonesia and Timor Leste to bring the Bible to life in every local language.
-            </p>
-           <div className="mb-2 lg:pl-8">
-              <HeroCarousel />
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4 p-2 justify-center">
-                <Button size="default" variant="secondary" className="font-bold hover:bg-orange-400 hover:text-white text-orange-600 bg-white border border-orange-500 ">
+            </h2>
+            <div className="flex flex-col sm:flex-row gap-4 p-2 justify-start">
+                <Button size="default" variant="secondary" className=" bg-orange-400 text-white ">
                   <Link href="#testimonies">Learn More</Link>
                 </Button>
                 <Button
                   size="default"
-                  variant="outline"
-                  className=" hover:text-white text-blue-900 border bg-white border-blue-900 hover:bg-blue-900 hover:border-blue-900"
+                  variant="secondary"
+                  className=" text-white bg-blue-900 "
                 >
                   <Link href="#ministry">Get Involved</Link>
                 </Button>
