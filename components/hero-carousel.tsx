@@ -7,17 +7,17 @@ import Image from "next/image"
 
 const carouselImages = [
   {
-    src: "/placeholder.svg?height=400&width=600",
+    src:'/picsam1.png',
     alt: "Bible translation team working together",
     caption: "Training local translators",
   },
   {
-    src: "/placeholder.svg?height=400&width=600",
+    src: "/13.png",
     alt: "Community gathering for Bible study",
     caption: "Community Bible study",
   },
   {
-    src: "/placeholder.svg?height=400&width=600",
+    src: "/14.png",
     alt: "Indonesian landscape with church",
     caption: "Reaching remote communities",
   },
@@ -43,6 +43,7 @@ export default function HeroCarousel() {
 
   return (
     <div className="relative rounded-lg overflow-hidden shadow-2xl">
+      <Image src='/picsam1.png' alt='..' fill  className='h-full w-full'/>
       <div className="relative h-80 lg:h-96">
         {carouselImages.map((image, index) => (
           <div
@@ -51,7 +52,7 @@ export default function HeroCarousel() {
               index === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           >
-            <Image src={image.src || "/placeholder.svg"} alt={image.alt} fill className="object-cover" />
+            <Image src='/picsam1.png' alt={image.alt} fill  className='h-full w-full'/>
             <div className="absolute inset-0 bg-black bg-opacity-20" />
             <div className="absolute bottom-4 left-4 text-white">
               <p className="text-sm font-medium bg-black bg-opacity-50 px-3 py-1 rounded">{image.caption}</p>
