@@ -9,17 +9,13 @@ import { NumberTicker } from "@/components/magicui/number-ticker"
 import { MorphingDialogBasicOne } from "@/components/motion-primitives/morphing-dialog-basic-one"
 import { Badge } from "@/components/ui/badge"
 import { RotateWords } from "@/components/rotate-words"
-import {Roboto_Mono, Montserrat, Inter, Roboto_Flex} from "next/font/google";
-const robotoMono = Roboto_Mono({subsets : ['latin']})
-const montserrat =Montserrat({subsets : ['latin']})
-const inter = Inter({subsets : ['latin']})
-const robotoFlex = Roboto_Flex({subsets : ['latin']})
+
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className=" bg-white">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm border-b sticky top-0 z-50">
+      <nav className=" supports-[backdrop-filter]:bg-background/60  bg-background/95 backdrop-blur border-b sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0">
@@ -53,7 +49,7 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-screen py-10 " style={{ backgroundImage: "url('/picsam1.png')", backgroundSize: 'center', backgroundPosition: 'center' }}>
+      <section className="relative min-h-screen py-10 " style={{ backgroundImage: "url('/image2.png')", backgroundSize: 'center', backgroundPosition: 'center' }}>
           <div className="h-full absolute inset-0 bg-black/50 "></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  md:mt-60 text-white font-bold">
           <div className='font-light'>
@@ -88,7 +84,7 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Our Impact Across Indonesia</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-orange-400 mb-4">Our Impact Across Indonesia</h2>
             <p className="text-xl text-gray-600">
               See how God is working through Bible translation across the archipelago
             </p>
