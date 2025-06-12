@@ -20,7 +20,7 @@ return () => clearInterval(interval)
 }, [])
 return (
  
-<div className="text-xl text-center sm:text-4xl  md:text-6xl md:leading-[4rem] md:w-full  w-fit flex items-start jusitfy-left mx-auto gap-5 ">
+<div className="text-3xl text-center sm:text-left sm:text-4xl  md:text-6xl md:leading-[4rem] w-full sm:mb-1 flex items-start justify-left mx-auto gap-5 ">
   {text}{' '}
   <AnimatePresence mode="wait">
     <motion.p

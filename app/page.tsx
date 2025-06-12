@@ -27,7 +27,6 @@ import { NumberTicker } from "@/components/magicui/number-ticker";
 import { MorphingDialogBasicOne } from "@/components/motion-primitives/morphing-dialog-basic-one";
 import { Badge } from "@/components/ui/badge";
 import { RotateWords } from "@/components/rotate-words";
-import { MultilayerCardV_1 } from "@/components/multi-layer-card";
 
 export default function HomePage() {
   return (
@@ -74,18 +73,15 @@ export default function HomePage() {
         <div className="h-full absolute inset-0 bg-black/50 "></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  md:mt-60 text-white font-bold">
           <div className="font-light">
-            <h1 className="text-3xl md:text-5xl mb-6 text-white ">
-              {/* <span className="text-[#F97316]"> Every</span> Tribe <span className="text-[#F97316]">Every</span> Language
-               <br /> God’s Word in <span className="text-[#F97316]"> Every </span> Heart */}
-              {/* Every Tribe Every Language  <br /> God's Word in Every Heart <br />  */}
-              <RotateWords text="Every" words={["Tribe", "Language"]} />
+            <RotateWords text="Every" words={["Tribe", "Language"]} />
+            <h1 className="text-3xl md:text-5xl mb-6 text-white ">              
               God's Word in Every Heart
             </h1>
             <h2 className="text-lg md:text-2xl mb-4 max-w-3xl  text-left text-white">
               Partnering with churches and communities across Indonesia and
               Timor Leste to bring the Bible to life in every local language.
             </h2>
-            <div className="flex flex-col sm:flex-row gap-4 p-2 justify-start">
+            <div className=" flex flex-col justify-center sm:flex-row gap-4 p-2 w-full">
               <Button
                 size="default"
                 variant="secondary"
