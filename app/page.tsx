@@ -27,12 +27,13 @@ import { NumberTicker } from "@/components/magicui/number-ticker";
 import { MorphingDialogBasicOne } from "@/components/motion-primitives/morphing-dialog-basic-one";
 import { Badge } from "@/components/ui/badge";
 import { RotateWords } from "@/components/rotate-words";
+import { MultilayerCardV_1 } from "@/components/multi-layer-card";
 
 export default function HomePage() {
   return (
     <div className=" bg-white">
       {/* Navigation */}
-      <nav className=" supports-[backdrop-filter]:bg-background/60  bg-background/95 backdrop-blur border-b sticky top-0 z-50">
+      <nav className=" supports-[backdrop-filter]:bg-background/60 bg-background/95 backdrop-blur border-b sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0">
@@ -238,27 +239,26 @@ export default function HomePage() {
               Three pillars of our mission to serve communities across Indonesia
             </p>
           </div>
-
           <div className="grid md:grid-cols-3 gap-8">
             <MorphingDialogBasicOne
               title="Bible Translation Training"
               subtitle="Equipping local communities with the skills and knowledge needed to translate God's Word into their
                   heart languages with accuracy and cultural sensitivity."
-                  image="/bible-translation-training.png"
+              image="/bible-translation-training.png"
             />
 
             <MorphingDialogBasicOne
               title="Open Bible Education"
               subtitle="Providing accessible biblical education and literacy programs to help communities understand and
                   engage with Scripture in their own language."
-                  image="/14.png"
+              image="/14.png"
             />
 
             <MorphingDialogBasicOne
               title="Community Development"
               subtitle="Supporting holistic community development through education, healthcare, and economic empowerment
                   alongside Bible translation work."
-                  image="/installment.png"
+              image="/installment.png"
             />
           </div>
         </div>
@@ -277,37 +277,27 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="hover:shadow-lg transition-shadow bg-zinc-50">
+            <Card className="hover:shadow-lg  hover:border-orange-100 transition-shadow bg-zinc-50">
               <CardContent className="pt-6">
-                <p className="text-gray-700 italic mb-4">
+                <p className="text-gray-700 italic mb-2">
                   "When I first heard the Gospel in my own language, it was like
                   my heart was opened for the first time. Now our entire village
                   gathers to hear God's Word in Batak."
                 </p>
-                <div className="text-center">
-                  <Image
-                    src="/placeholder.svg?height=80&width=80"
-                    alt="Maria Situmorang"
-                    width={80}
-                    height={80}
-                    className="rounded-full mx-auto mb-2"
-                  />
-                  <p className="font-semibold text-blue-900">
-                    Maria Situmorang
-                  </p>
-                </div>
               </CardContent>
-              <CardFooter className="flex justify-between items-center">
+              <CardFooter className="flex justify-between items-center gap-2">
                 <Badge
                   variant="secondary"
-                  className="bg-orange-100 h-8 w-2/4 text-sm text-orange-500"
+                  className="h-8 w-2/4 text-sm text-orange-500"
+                >
+                  Maria Situmorang
+                </Badge>
+                <Badge
+                  variant="secondary"
+                  className=" h-8 w-2/4 text-sm text-blue-500"
                 >
                   Batak Language
                 </Badge>
-                {/* <span className="text-sm text-gray-600">Batak Language</span> */}
-                {/* <Button variant="ghost" className="text-sm text-blue-500 hover:bg-blue-100" rightIcon={<ArrowRight />} size="sm">
-                  Read More
-                </Button> */}
               </CardFooter>
             </Card>
 
@@ -318,22 +308,20 @@ export default function HomePage() {
                   honor of my life. Seeing my people understand Scripture in
                   Javanese brings tears of joy."
                 </p>
-                <div className="text-center">
-                  <Image
-                    src="/placeholder.svg?height=80&width=80"
-                    alt="Budi Santoso"
-                    width={80}
-                    height={80}
-                    className="rounded-full mx-auto mb-2"
-                  />
-                  <p className="font-semibold text-gray-900">Budi Santoso</p>
-                </div>
               </CardContent>
-              <CardFooter className="flex justify-between items-center">
-                <span className="text-sm text-gray-600">Javanese Language</span>
-                <Button variant="ghost" size="sm">
-                  Read More
-                </Button>
+              <CardFooter className="flex justify-between items-center gap-2">
+                <Badge
+                  variant="secondary"
+                  className="h-8 w-2/4 text-sm text-orange-500"
+                >
+                  Maria Situmorang
+                </Badge>
+                <Badge
+                  variant="secondary"
+                  className=" h-8 w-2/4 text-sm text-blue-500"
+                >
+                  Batak Language
+                </Badge>
               </CardFooter>
             </Card>
 
@@ -344,24 +332,20 @@ export default function HomePage() {
                   Sundanese. It's beautiful to see how God's Word comes alive in
                   our mother tongue."
                 </p>
-                <div className="text-center">
-                  <Image
-                    src="/placeholder.svg?height=80&width=80"
-                    alt="Sari Wijaya"
-                    width={80}
-                    height={80}
-                    className="rounded-full mx-auto mb-2"
-                  />
-                  <p className="font-semibold text-gray-900">Sari Wijaya</p>
-                </div>
               </CardContent>
-              <CardFooter className="flex justify-between items-center">
-                <span className="text-sm text-gray-600">
-                  Sundanese Language
-                </span>
-                <Button variant="ghost" size="sm">
-                  Read More
-                </Button>
+              <CardFooter className="flex justify-between items-center gap-2">
+                <Badge
+                  variant="secondary"
+                  className="h-8 w-2/4 text-sm text-orange-500"
+                >
+                  Maria Situmorang
+                </Badge>
+                <Badge
+                  variant="secondary"
+                  className=" h-8 w-2/4 text-sm text-blue-500"
+                >
+                  Batak Language
+                </Badge>
               </CardFooter>
             </Card>
           </div>
