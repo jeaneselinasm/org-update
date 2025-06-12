@@ -27,12 +27,13 @@ import { NumberTicker } from "@/components/magicui/number-ticker";
 import { MorphingDialogBasicOne } from "@/components/motion-primitives/morphing-dialog-basic-one";
 import { Badge } from "@/components/ui/badge";
 import { RotateWords } from "@/components/rotate-words";
+import ResponsiveNavigation from "@/components/navigation-bar";
 
 export default function HomePage() {
   return (
     <div className=" bg-white">
       {/* Navigation */}
-      <nav className=" supports-[backdrop-filter]:bg-background/60 bg-background/95 backdrop-blur border-b sticky top-0 z-50">
+      {/* <nav className=" supports-[backdrop-filter]:bg-background/60 bg-background/95 backdrop-blur border-b sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0">
@@ -59,7 +60,8 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </nav>
+      </nav> */}
+      <ResponsiveNavigation />
 
       {/* Hero Section */}
       <section
