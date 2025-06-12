@@ -81,7 +81,7 @@ export default function HomePage() {
               Partnering with churches and communities across Indonesia and
               Timor Leste to bring the Bible to life in every local language.
             </h2>
-            <div className=" flex flex-col justify-center sm:flex-row gap-4 p-2 w-full">
+            <div className=" flex flex-col sm:justify-start w-fit sm:flex-row gap-4 p-2 sm:w-full">
               <Button
                 size="default"
                 variant="secondary"
