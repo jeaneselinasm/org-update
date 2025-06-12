@@ -13,8 +13,9 @@ import {
 interface MorphingDialogBasicOneProps {
   title : string
   subtitle : string
+  image :  string
 }
-export function MorphingDialogBasicOne({title,subtitle} : MorphingDialogBasicOneProps) {
+export function MorphingDialogBasicOne({title,subtitle, image} : MorphingDialogBasicOneProps) {
   return (
     <MorphingDialog
       transition={{
@@ -48,7 +49,7 @@ export function MorphingDialogBasicOne({title,subtitle} : MorphingDialogBasicOne
           className='pointer-events-auto relative flex h-auto w-full flex-col overflow-hidden border border-zinc-950/10 bg-white dark:border-zinc-50/10 dark:bg-zinc-900 sm:w-[500px]'
         >
           <MorphingDialogImage
-            src='/picsam1.png'
+            src={image}
             alt='pics'
             className='h-full w-full'
           />
