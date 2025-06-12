@@ -25,23 +25,17 @@ export default function HomePage() {
               <div className="ml-10 flex items-baseline space-x-8">
                 <Link
                   href="#about"
-                  className="text-gray-700 hover:text-blue-900 px-3 py-2 text-sm font-medium transition-colors"
+                  className="text-gray-700 text-md hover:text-blue-900 px-3 py-2 transition-colors hover:underline"
                 >
                   About
                 </Link>
-                {/* <Link
-                  href="#get-involved"
-                  className="text-gray-700 hover:text-blue-900 px-3 py-2 text-sm font-medium transition-colors"
-                >
-                  Get Involved
-                </Link> */}
                 <Link
                   href="#translations"
-                  className="text-gray-700 hover:text-blue-900 px-3 py-2 text-sm font-medium transition-colors"
+                  className="text-gray-700 hover:text-blue-900 px-3 py-2 text-md transition-colors hover:underline"
                 >
                   Translations
                 </Link>
-                <Button className="bg-blue-900 hover:bg-blue-800">Contact</Button>
+                <Button className="bg-blue-900 hover:bg-blue-800 text-md">Contact</Button>
               </div>
             </div>
           </div>
