@@ -237,7 +237,7 @@ export default function HomePage() {
               Three pillars of our mission to serve communities across Indonesia
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 ">
             <MorphingDialogBasicOne
               title="Bible Translation Training"
               subtitle="Equipping local communities with the skills and knowledge needed to translate God's Word into their

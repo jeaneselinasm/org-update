@@ -32,7 +32,7 @@ export function MorphingDialogBasicOne({title,subtitle, image} : MorphingDialogB
       >
         <div className="">
           <div>
-            <MorphingDialogTitle className='md:mt-4 font-bold text-xl text-blue-900 dark:text-zinc-50'>
+            <MorphingDialogTitle className='mt-4 font-bold text-xl text-blue-900 dark:text-zinc-50'>
              {title}
             </MorphingDialogTitle>
             <MorphingDialogSubtitle className='p-6  text-zinc-700 dark:text-zinc-400'>
