@@ -75,9 +75,13 @@ export default function HomePage() {
                 <Link href="#ministry"> {theroSection('getInvolvedButton')}</Link>
               </Button>
               <Button_v2
-                children={theroSection('donateButton')}
+               
                 className="bg-orange-400"
-              ></Button_v2>
+              >
+                <Link href="https://bahtraku.bible/"  legacyBehavior passHref> 
+                <a target="_blank" rel="noopener noreferrer"> {theroSection('donateButton')}</a>
+                </Link>
+              </Button_v2>
             </div>
           </div>
         </div>
