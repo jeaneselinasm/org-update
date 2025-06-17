@@ -19,6 +19,7 @@ import {
   Mail,
   MapIcon,
   ArrowRight,
+  ChevronRight
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -28,8 +29,11 @@ import { MorphingDialogBasicOne } from "@/components/motion-primitives/morphing-
 import { Badge } from "@/components/ui/badge";
 import { RotateWords } from "@/components/rotate-words";
 import ResponsiveNavigation from "@/components/navigation-bar";
+import { useLocale, useTranslations } from "next-intl"
 
 export default function HomePage() {
+  const locale = useLocale()
+  const theroSection = useTranslations("homePage.heroSection")
   return (
     <div className=" bg-white">
       {/* Navigation */}
@@ -77,7 +81,7 @@ export default function HomePage() {
           <div className="font-light">
             <RotateWords text="Every" words={["Tribe", "Language"]} />
             <h1 className="text-3xl md:text-5xl mb-6 text-white ">              
-              God's Word in Every Heart
+             {theroSection('title')}
             </h1>
             <h2 className="text-lg md:text-2xl mb-4 max-w-3xl  text-left text-white">
               Partnering with churches and communities across Indonesia and
@@ -121,7 +125,7 @@ export default function HomePage() {
           </div>
 
           {/* Map of Indonesia */}
-          <div className="mb-12 flex justify-center">
+          {/* <div className="mb-12 flex justify-center">
             <div className="bg-white rounded-lg shadow-lg p-8 max-w-4xl w-full">
               <div className="flex items-center justify-center h-64 bg-blue-50 rounded-lg">
                 <div className="text-center">
@@ -133,27 +137,29 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Statistics */}
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
+             
+              
               <NumberTicker
-                value={1245}
+                value={4700}
                 decimalPlaces={0}
                 startValue={0}
                 className="text-2xl font-bold text-gray-900"
               >
                 {" "}
               </NumberTicker>
-              {/* <div className="text-2xl font-bold text-gray-900">1,247</div> */}
+      
               <div className="text-sm text-gray-600">Trained People</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <MapPin className="h-8 w-8 text-green-600 mx-auto mb-2" />
               <NumberTicker
-                value={130}
+                value={65}
                 decimalPlaces={0}
                 startValue={0}
                 className="text-2xl font-bold text-gray-900"
@@ -162,31 +168,46 @@ export default function HomePage() {
               </NumberTicker>
               <div className="text-sm text-gray-600">Active Projects</div>
             </div>
-            <div className="bg-white rounded-lg shadow-md p-6 text-center">
-              <BookOpen className="h-8 w-8 text-purple-600 mx-auto mb-2" />
+             <div className="bg-white rounded-lg shadow-md p-6 text-center">
+              <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
+             
+              
               <NumberTicker
-                value={35}
+                value={585}
                 decimalPlaces={0}
                 startValue={0}
                 className="text-2xl font-bold text-gray-900"
               >
                 {" "}
               </NumberTicker>
-              <div className="text-sm text-gray-600">New Testament</div>
+      
+              <div className="text-sm text-gray-600">Active Translator</div>
+            </div>
+            <div className="bg-white rounded-lg shadow-md p-6 text-center">
+              <BookOpen className="h-8 w-8 text-purple-600 mx-auto mb-2" />
+              <NumberTicker
+                value={44}
+                decimalPlaces={0}
+                startValue={0}
+                className="text-2xl font-bold text-gray-900"
+              >
+                {" "} 
+              </NumberTicker>
+              <div className="text-sm text-gray-600"> Language Completed New Testament</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <BookOpen className="h-8 w-8 text-orange-600 mx-auto mb-2" />
               <NumberTicker
-                value={7}
+                value={3}
                 decimalPlaces={0}
                 startValue={0}
                 className="text-2xl font-bold text-gray-900"
               >
                 {" "}
               </NumberTicker>
-              <div className="text-sm text-gray-600">Old Testament</div>
+              <div className="text-sm text-gray-600"> Language Completed Old Testament</div>
             </div>
-            <div className="bg-white rounded-lg shadow-md p-6 text-center">
+            {/* <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <FileText className="h-8 w-8 text-red-600 mx-auto mb-2" />
               <NumberTicker
                 value={2847}
@@ -197,8 +218,8 @@ export default function HomePage() {
                 {" "}
               </NumberTicker>
               <div className="text-sm text-gray-600">Chapters</div>
-            </div>
-            <div className="bg-white rounded-lg shadow-md p-6 text-center">
+            </div> */}
+            {/* <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <FileText className="h-8 w-8 text-indigo-600 mx-auto mb-2" />
               <NumberTicker
                 value={827163}
@@ -209,11 +230,11 @@ export default function HomePage() {
                 {" "}
               </NumberTicker>
               <div className="text-sm text-gray-600">Verses</div>
-            </div>
+            </div> */}
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <Printer className="h-8 w-8 text-teal-600 mx-auto mb-2" />
               <NumberTicker
-                value={18}
+                value={12}
                 decimalPlaces={0}
                 startValue={0}
                 className="text-2xl font-bold text-gray-900"

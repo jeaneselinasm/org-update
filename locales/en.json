@@ -1,0 +1,14 @@
+{
+    "homePage" : {
+        "heroSection": {
+           "titleRotateText" : "Every",
+            "titleRotateWords1" : "Tribe",
+            "titleRotateWords2" : "Language",
+            "title" : " God's Word in Every Heart",
+            "subtitle" : " Partnering with churches and communities across Indonesia and Timor Leste to bring the Bible to life in every local language.",
+            "learnMoreButton" : "Learn More",
+            "getInvolvedButton" : "Get Involved",
+            "donateButton" : "Donate Now"
+        }
+    }
+}
