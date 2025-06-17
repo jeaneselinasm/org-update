@@ -1,37 +1,34 @@
 {
-    "homePage" : {
-        "heroSection": {
-            "titleRotateText" : "Setiap",
-            "titleRotateWords1" : "Suku",
-            "titleRotateWords2" : "Bahasa",
-            "title" : "Firman Tuhan di Setiap Hati",
-            "subtitle" : "Bermitra dengan gereja-gereja dan komunitas di seluruh Indonesia dan Timor Leste untuk menghidupkan Alkitab dalam berbagai bahasa lokal.",
-            "learnMoreButton" : "Learn More",
-            "getInvolvedButton" : "Mari Terlibat",
-            "donateButton" : "Donasi Sekarang"
-        },
-        "projectSection": {
-            "title" : " Our Impact Across Indonesia",
-            "subtitle" : " Lihat bagaimana Tuhan bekerja melalui penerjemahan Alkitab di seluruh nusantara",
-            "statisticTrainedPeople" : "Orang yang Telah Dilatih",
-            "statisticActiveProjects" : "Proyek Aktif",
-            "statisticActiveTranslator" : "Penerjemah Aktif",
-            "statisticNT" : "Bahasa yang Telah Menyelesaikan Terjemahan Perjanjian Baru",
-            "statisticOT" : "Bahasa yang Telah Menyelesaikan Terjemahan Perjanjian Lama",
-            "statisticPrintedBibles" : "Alkitab yang Telah Dicetak Edisi Percobaan"
-           
-
-        },
-         "ministrySection": {
-            "title" : "Our Impact Across Indonesia",
-            "subtitle" : " Lihat bagaimana Tuhan bekerja melalui penerjemahan Alkitab di seluruh nusantara",
-            "bibleTranslationTraining" : "Orang yang Telah Dilatih",
-            "openBibleTraining" : "Proyek Aktif",
-            "communityDevelopment" : "Penerjemah Aktif",
-            "statisticNT" : "Bahasa yang Telah Menyelesaikan Terjemahan Perjanjian Baru",
-            "statisticOT" : "Bahasa yang Telah Menyelesaikan Terjemahan Perjanjian Lama",
-            "statisticPrintedBibles" : "Alkitab yang Telah Dicetak Edisi Percobaan"
-        
-        }
+  "homePage": {
+    "heroSection": {
+      "titleRotateText": "Setiap",
+      "titleRotateWords1": "Suku",
+      "titleRotateWords2": "Bahasa",
+      "title": "Firman Tuhan di Setiap Hati",
+      "subtitle": "Bermitra dengan gereja-gereja dan komunitas di seluruh Indonesia dan Timor Leste untuk menghidupkan Alkitab dalam berbagai bahasa lokal.",
+      "learnMoreButton": "Learn More",
+      "getInvolvedButton": "Mari Terlibat",
+      "donateButton": "Donasi Sekarang"
+    },
+    "projectSection": {
+      "title": " Our Impact Across Indonesia",
+      "subtitle": " Lihat bagaimana Tuhan bekerja melalui penerjemahan Alkitab di seluruh nusantara",
+      "statisticTrainedPeople": "Orang yang Telah Dilatih",
+      "statisticActiveProjects": "Proyek Aktif",
+      "statisticActiveTranslator": "Penerjemah Aktif",
+      "statisticNT": "Bahasa yang Telah Menyelesaikan Terjemahan Perjanjian Baru",
+      "statisticOT": "Bahasa yang Telah Menyelesaikan Terjemahan Perjanjian Lama",
+      "statisticPrintedBibles": "Alkitab yang Telah Dicetak Edisi Percobaan"
+    },
+    "ministrySection": {
+      "title": "Pelayanan Kami",
+      "subtitle": "Tiga pilar misi kami untuk melayani masyarakat di seluruh Indonesia",
+      "bibleTranslationTrainingTitle": "Pelatihan Penerjemahan Alkitab",
+      "bibleTranslationTrainingSubtitle": "Memperlengkapi komunitas lokal dengan keterampilan dan pengetahuan yang dibutuhkan untuk menerjemahkan Firman Tuhan ke dalam bahasa hati mereka.",
+      "openBibleEducationTitle": "Pendidikan Alkitab Terbuka",
+      "openBibleEducationSubtitle": "Program Pendidikan Alkitab Terbuka dirancang untuk membantu orang-orang percaya tidak hanya membaca Alkitab tetapi juga memahami dan menerapkan kebenarannya dalam kehidupan sehari-hari. ",
+      "communityDevelopmentTitle": "Pengembangan Masyarakat",
+      "communityDevelopmentSubtitle": "Pengembangan Masyarakat bertujuan untuk meningkatkan kualitas hidup di daerah-daerah yang kurang terlayani, memberdayakan masyarakat agar dapat berkembang secara spiritual, sosial, dan ekonomi."
     }
+  }
 }

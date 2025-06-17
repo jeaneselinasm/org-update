@@ -27,6 +27,7 @@ import { useLocale, useTranslations } from "next-intl"
 export default function HomePage() {
   const theroSection = useTranslations("homePage.heroSection")
   const tprojectSection = useTranslations("homePage.projectSection")
+  const tministrySection = useTranslations("homePage.ministrySection")
   return (
     <div className=" bg-white">
       {/* Navigation */}
@@ -219,31 +220,27 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-4">
-              Our Ministry
+               {tministrySection('title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Three pillars of our mission to serve communities across Indonesia
+             {tministrySection('subtitle')}
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 ">
             <MorphingDialogBasicOne
-              title="Bible Translation Training"
-              subtitle="Equipping local communities with the skills and knowledge needed to translate God's Word into their
-                  heart languages with accuracy and cultural sensitivity."
+              title= {tministrySection('bibleTranslationTrainingTitle')}
+              subtitle={tministrySection('bibleTranslationTrainingSubtitle')}
               image="/bible-translation-training.png"
             />
-
             <MorphingDialogBasicOne
-              title="Open Bible Education"
-              subtitle="Providing accessible biblical education and literacy programs to help communities understand and
-                  engage with Scripture in their own language."
+              title={tministrySection('openBibleEducationTitle')}
+              subtitle={tministrySection('openBibleEducationSubtitle')}
               image="/14.png"
             />
 
             <MorphingDialogBasicOne
-              title="Community Development"
-              subtitle="Supporting holistic community development through education, healthcare, and economic empowerment
-                  alongside Bible translation work."
+              title={tministrySection('communityDevelopmentTitle')}
+              subtitle={tministrySection('communityDevelopmentSubtitle')}
               image="/installment.png"
             />
           </div>
