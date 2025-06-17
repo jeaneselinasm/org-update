@@ -9,7 +9,29 @@
             "learnMoreButton" : "Learn More",
             "getInvolvedButton" : "Mari Terlibat",
             "donateButton" : "Donasi Sekarang"
+        },
+        "projectSection": {
+            "title" : " Our Impact Across Indonesia",
+            "subtitle" : " Lihat bagaimana Tuhan bekerja melalui penerjemahan Alkitab di seluruh nusantara",
+            "statisticTrainedPeople" : "Orang yang Telah Dilatih",
+            "statisticActiveProjects" : "Proyek Aktif",
+            "statisticActiveTranslator" : "Penerjemah Aktif",
+            "statisticNT" : "Bahasa yang Telah Menyelesaikan Terjemahan Perjanjian Baru",
+            "statisticOT" : "Bahasa yang Telah Menyelesaikan Terjemahan Perjanjian Lama",
+            "statisticPrintedBibles" : "Alkitab yang Telah Dicetak Edisi Percobaan"
+           
 
+        },
+         "ministrySection": {
+            "title" : "Our Impact Across Indonesia",
+            "subtitle" : " Lihat bagaimana Tuhan bekerja melalui penerjemahan Alkitab di seluruh nusantara",
+            "bibleTranslationTraining" : "Orang yang Telah Dilatih",
+            "openBibleTraining" : "Proyek Aktif",
+            "communityDevelopment" : "Penerjemah Aktif",
+            "statisticNT" : "Bahasa yang Telah Menyelesaikan Terjemahan Perjanjian Baru",
+            "statisticOT" : "Bahasa yang Telah Menyelesaikan Terjemahan Perjanjian Lama",
+            "statisticPrintedBibles" : "Alkitab yang Telah Dicetak Edisi Percobaan"
+        
         }
     }
 }

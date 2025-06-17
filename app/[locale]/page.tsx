@@ -1,27 +1,20 @@
-import HeroCarousel from "@/components/hero-carousel";
+
 import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
   CardFooter,
-  CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
 import {
   MapPin,
   Users,
   BookOpen,
-  FileText,
   Printer,
   Instagram,
   Youtube,
   Phone,
   Mail,
-  MapIcon,
-  ArrowRight,
-  ChevronRight
 } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import { Button_v2 } from "@/components/ui/button-shine-2";
 import { NumberTicker } from "@/components/magicui/number-ticker";
@@ -32,8 +25,8 @@ import ResponsiveNavigation from "@/components/navigation-bar";
 import { useLocale, useTranslations } from "next-intl"
 
 export default function HomePage() {
-  const locale = useLocale()
   const theroSection = useTranslations("homePage.heroSection")
+  const tprojectSection = useTranslations("homePage.projectSection")
   return (
     <div className=" bg-white">
       {/* Navigation */}
@@ -92,11 +85,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-orange-400 mb-4">
-              Our Impact Across Indonesia
+              {tprojectSection('title')}
             </h2>
             <p className="text-xl text-gray-600">
-              See how God is working through Bible translation across the
-              archipelago
+                {tprojectSection('subtitle')}
             </p>
           </div>
 
@@ -120,7 +112,6 @@ export default function HomePage() {
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
              
-              
               <NumberTicker
                 value={4700}
                 decimalPlaces={0}
@@ -130,7 +121,7 @@ export default function HomePage() {
                 {" "}
               </NumberTicker>
       
-              <div className="text-sm text-gray-600">Trained People</div>
+              <div className="text-sm text-gray-600">  {tprojectSection('statisticTrainedPeople')}</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <MapPin className="h-8 w-8 text-green-600 mx-auto mb-2" />
@@ -142,7 +133,7 @@ export default function HomePage() {
               >
                 {" "}
               </NumberTicker>
-              <div className="text-sm text-gray-600">Active Projects</div>
+              <div className="text-sm text-gray-600"> {tprojectSection('statisticActiveProjects')}</div>
             </div>
              <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
@@ -157,7 +148,7 @@ export default function HomePage() {
                 {" "}
               </NumberTicker>
       
-              <div className="text-sm text-gray-600">Active Translator</div>
+              <div className="text-sm text-gray-600"> {tprojectSection('statisticActiveTranslator')}</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <BookOpen className="h-8 w-8 text-purple-600 mx-auto mb-2" />
@@ -169,7 +160,7 @@ export default function HomePage() {
               >
                 {" "} 
               </NumberTicker>
-              <div className="text-sm text-gray-600"> Language Completed New Testament</div>
+              <div className="text-sm text-gray-600">{tprojectSection('statisticNT')}</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <BookOpen className="h-8 w-8 text-orange-600 mx-auto mb-2" />
@@ -181,7 +172,7 @@ export default function HomePage() {
               >
                 {" "}
               </NumberTicker>
-              <div className="text-sm text-gray-600"> Language Completed Old Testament</div>
+              <div className="text-sm text-gray-600">{tprojectSection('statisticOT')}</div>
             </div>
             {/* <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <FileText className="h-8 w-8 text-red-600 mx-auto mb-2" />
@@ -217,7 +208,7 @@ export default function HomePage() {
               >
                 {" "}
               </NumberTicker>
-              <div className="text-sm text-gray-600">Printed Bibles</div>
+              <div className="text-sm text-gray-600">{tprojectSection('statisticPrintedBibles')}</div>
             </div>
           </div>
         </div>
