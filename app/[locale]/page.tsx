@@ -237,12 +237,14 @@ export default function HomePage() {
               title={tministrySection('openBibleEducationTitle')}
               subtitle={tministrySection('openBibleEducationSubtitle')}
               image="/14.png"
+              description="a"
             />
 
             <MorphingDialogBasicOne
               title={tministrySection('communityDevelopmentTitle')}
               subtitle={tministrySection('communityDevelopmentSubtitle')}
               image="/installment.png"
+               description="a"
             />
           </div>
         </div>

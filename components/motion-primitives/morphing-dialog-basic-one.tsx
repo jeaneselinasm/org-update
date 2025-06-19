@@ -15,6 +15,7 @@ interface MorphingDialogBasicOneProps {
   subtitle : string
   image :  string,
   description : string
+
 }
 export function MorphingDialogBasicOne({title,subtitle, image, description} : MorphingDialogBasicOneProps) {
   return (

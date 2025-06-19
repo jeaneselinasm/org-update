@@ -32,5 +32,13 @@
       "communityDevelopmentSubtitle": "Community Development initiatives aim to improve the quality of life in underserved areas, empowering communities to thrive spiritually, socially, and economically."
 
     }
+  },
+  "bibleTranslationTrainingPage" : {
+    "trainingProcessSection" : {
+      "title" : "8 Steps Translation",
+      "subtitle" : "A step-by-step approach to developing skilled translators",
+      "step1Title" : "Read and Understand",
+      "step1Subtitle" : "Read all the Bible section that you will work with"
+    }
   }
 }
