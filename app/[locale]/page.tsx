@@ -231,6 +231,7 @@ export default function HomePage() {
               title= {tministrySection('bibleTranslationTrainingTitle')}
               subtitle={tministrySection('bibleTranslationTrainingSubtitle')}
               image="/bible-translation-training.png"
+              description={tministrySection('bibleTranslationTrainingDescription')}
             />
             <MorphingDialogBasicOne
               title={tministrySection('openBibleEducationTitle')}

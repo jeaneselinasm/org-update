@@ -13,9 +13,10 @@ import {
 interface MorphingDialogBasicOneProps {
   title : string
   subtitle : string
-  image :  string
+  image :  string,
+  description : string
 }
-export function MorphingDialogBasicOne({title,subtitle, image} : MorphingDialogBasicOneProps) {
+export function MorphingDialogBasicOne({title,subtitle, image, description} : MorphingDialogBasicOneProps) {
   return (
     <MorphingDialog
       transition={{
@@ -68,11 +69,8 @@ export function MorphingDialogBasicOne({title,subtitle, image} : MorphingDialogB
                 exit: { opacity: 0, scale: 0.8, y: 100 },
               }}
             >
-              <p className='mt-2 text-zinc-500 dark:text-zinc-500'>
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem autem obcaecati itaque?
-              </p>
-              <p className='text-zinc-500'>
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt hic tenetur repellendus porro. Dolores enim exercitationem quam fuga. Praesentium numquam, delectus fugit quam consectetur similique aperiam fugiat. Eveniet, omnis eos!
+              <p className='mt-2 text-zinc-500 dark:text-zinc-500 text-justify'>
+             {description}
               </p>
               <a
                 className='mt-2 inline-flex text-zinc-500 underline'
