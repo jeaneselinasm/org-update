@@ -31,5 +31,27 @@
       "communityDevelopmentTitle": "Pengembangan Masyarakat",
       "communityDevelopmentSubtitle": "Pengembangan Masyarakat bertujuan untuk meningkatkan kualitas hidup di daerah-daerah yang kurang terlayani, memberdayakan masyarakat agar dapat berkembang secara spiritual, sosial, dan ekonomi."
     }
+  },
+  "bibleTranslationTrainingPage" : {
+    "trainingProcessSection" : {
+      "title" : "8 Langkah MAST",
+      "subtitle" : "Delapan langkah MAST (Mobilized Assistance Supporting Translation) dapat digunakan untuk menyusun Alkitab ke dalam format tertulis atau audio, kemudian memeriksanya dengan cermat.",
+      "step1Title" : "Baca dan Pahami",
+      "step1Subtitle" : "Baca atau dengarkan seluruh bagian Alkitab yang akan Anda kerjakan. Cobalah untuk memahami makna dan poin utama bagian tersebut.",
+       "step2Title" : "Menceritakan Kembali",
+      "step2Subtitle" : "Dilakukan dengan satu rekan (Jika tidak ada rekan maka Anda dapan menceritakan kembali bagian Alkitab yang sudah dibaca dengan bersuara.",
+       "step3Title" : "Pemenggalan Teks",
+      "step3Subtitle" : "Penggallah bagian Alkitab yang Anda baca menjadi bagian yang lebih kecil, yang disebut Potongan.",
+       "step4Title" : "Konsep / Draft Buta",
+      "step4Subtitle" : "Baca potongan pertama dari bagian Alkitab yang mau diterjemahkan dan setelah itu, tutuplah sumber teks tersebut.",
+       "step5Title" : "Periksa Sendiri",
+      "step5Subtitle" : "Lihatlah sumber teks kembali dan bandingkan dengan apa yang telah Anda terjemahkan.",
+       "step6Title" : "Periksa Bersama Rekan",
+      "step6Subtitle" : "Berikan hasil terjemahan Anda kepada salah satu rekan kelompok Anda. Rekan tersebut akan membaca dan memeriksa hasil terjemahan Anda.",
+       "step7Title" : "Periksa Kata Kunci",
+      "step7Subtitle" : "Temukan kata kunci lalu Anda dan rekan Anda harus membandingkan sumber teks dengan hasil terjemahan Anda.",
+       "step8Title" : "Periksa Ayat Demi Ayat",
+      "step8Subtitle" : "Baca seluruh bagian Alkitab yang akan Anda kerjakan. Cobalah untuk memahami makna dan poin utama bagian tersebut."
+    }
   }
 }

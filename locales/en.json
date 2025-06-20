@@ -35,10 +35,24 @@
   },
   "bibleTranslationTrainingPage" : {
     "trainingProcessSection" : {
-      "title" : "8 Steps Translation",
-      "subtitle" : "A step-by-step approach to developing skilled translators",
-      "step1Title" : "Read and Understand",
-      "step1Subtitle" : "Read all the Bible section that you will work with"
+      "title" : "8 Steps of MAST",
+      "subtitle" : "The 8 steps of MAST (Mobilized Assistance Supporting Translation) can be used to draft Scripture into either a written or an audio format, then carefully check it.",
+      "step1Title" : "Consume",
+      "step1Subtitle" : "Read or listen to the entire chapter, aiming to grasp its meaning and main point. ",
+       "step2Title" : "Verbalize",
+      "step2Subtitle" : "In this step, verbally summarize the main people, events, and ideas of a chapter in your native language.",
+       "step3Title" : "Chunk",
+      "step3Subtitle" : "Chunking involves dividing a chapter of Scripture into smaller, easily memorable parts.",
+       "step4Title" : "Blind Draft",
+      "step4Subtitle" : "Read or listen to the first chunk of your chapter. Without referencing the source material.",
+       "step5Title" : "Self-Edit",
+      "step5Subtitle" : "Look at (or listen to) the source text again and compare it to what you have written (or recorded).",
+       "step6Title" : "Peer-Edit",
+      "step6Subtitle" : "Ask a team member to carefully review your blind draft translation. ",
+       "step7Title" : "Key Word Check",
+      "step7Subtitle" : "First, you and a partner must identify key words and important concepts in each verse of the source text.",
+       "step8Title" : "Verse-by-Verse Check",
+      "step8Subtitle" : "Two additional individuals, apart from the translator, are involved. These partners should be proficient in both the mother tongue and source language."
     }
   }
 }
