@@ -25,6 +25,7 @@ import Link from "next/link";
 import { useState } from "react";
 ResponsiveNavigation;
 import { useTranslations } from "next-intl";
+import Footer from "@/components/footer";
 export default function BibleTranslationTrainingPage() {
   const [language, setLanguage] = useState("en");
   const tTrainingProcessSection = useTranslations(
@@ -127,15 +128,7 @@ export default function BibleTranslationTrainingPage() {
               <p className="text-lg text-gray-700 mb-6 text-justify">
                 {tOverviewSection("description")}
               </p>
-              {/* <p className="text-lg text-gray-700 mb-6">
-                Through comprehensive training programs, we equip indigenous speakers with the linguistic, theological,
-                and technical skills needed to translate Scripture accurately while preserving the heart and meaning of
-                God's Word in their mother tongue.
-              </p>
-              <p className="text-lg text-gray-700">
-                Our approach combines academic rigor with practical application, ensuring that every translator is not
-                only skilled but also deeply committed to serving their community through God's Word.
-              </p> */}
+
             </div>
             <div className="bg-blue-50 rounded-lg p-8">
               <div className="grid grid-cols-2 gap-6">
@@ -455,13 +448,13 @@ export default function BibleTranslationTrainingPage() {
       </section> */}
 
       {/* Call to Action */}
-      <section className="py-20 bg-blue-900 text-white">
+      <section className="py-10 text-blue-900 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Heart className="h-16 w-16 mx-auto mb-6 text-blue-200" />
+          <Heart className="h-16 w-16 mx-auto mb-6 " />
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Join Our Training Program
           </h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto text-blue-100">
+          <p className="text-xl mb-8 max-w-3xl mx-auto ">
             Are you passionate about bringing God's Word to your community? Our
             training programs can equip you with the skills and knowledge needed
             to make an eternal impact.
@@ -469,23 +462,17 @@ export default function BibleTranslationTrainingPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
-              className="bg-white text-blue-900 hover:bg-gray-100"
+              className="bg-blue-200 text-blue-900 hover:bg-orange-200 hover:text-orange-700"
             >
               Apply for Training
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-blue-900"
-            >
-              Learn More
-            </Button>
+          
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white">
+      {/* <footer className="bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
@@ -541,7 +528,8 @@ export default function BibleTranslationTrainingPage() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
+      <Footer/>
     </div>
   );
 }
