@@ -7,7 +7,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import {
   Users,
   Target,
-  CheckCircle,
   MapPin,
   Languages,
   Heart,
@@ -23,7 +22,8 @@ import { useTranslations } from "next-intl"
 export default function BibleTranslationTrainingPage() {
   const [language, setLanguage] = useState("en")
    const tTrainingProcessSection = useTranslations("bibleTranslationTrainingPage.trainingProcessSection")
-
+   const tHeroSection = useTranslations("bibleTranslationTrainingPage.heroSection")
+   const tOverviewSection = useTranslations("bibleTranslationTrainingPage.overviewSection")
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
@@ -91,10 +91,9 @@ export default function BibleTranslationTrainingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             {/* <BookOpen className="h-16 w-16 mx-auto mb-6 text-orange-600" /> */}
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-blue-900">Bible Translation Training</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-blue-900">{tHeroSection('title')}</h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto text-orange-400 ">
-              Equipping local communities with the skills and knowledge needed to translate God's Word into their heart
-              languages with accuracy and cultural sensitivity.
+             {tHeroSection('description')}
             </p>
           </div>
         </div>
@@ -105,9 +104,9 @@ export default function BibleTranslationTrainingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6">Equipping Believers to <br /> Translate God’s Word</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-blue-900 mb-6">{tOverviewSection('title1')}<br /> {tOverviewSection('title2')}</h2>
               <p className="text-lg text-gray-700 mb-6 text-justify">
-               At the heart of our mission is the belief that every language community deserves access to God’s Word in their mother tongue. Our Bible Translation Training program is designed to equip local believers with the skills, tools, and spiritual foundation necessary to translate the Scriptures with accuracy, clarity, and cultural relevance.
+              {tOverviewSection('description')}
               </p>
               {/* <p className="text-lg text-gray-700 mb-6">
                 Through comprehensive training programs, we equip indigenous speakers with the linguistic, theological,
@@ -124,22 +123,22 @@ export default function BibleTranslationTrainingPage() {
                 <div className="text-center">
                   <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
                   <div className="text-2xl font-bold text-gray-900">4700</div>
-                  <div className="text-sm text-gray-600">Trained Translators</div>
+                  <div className="text-sm text-gray-600">  {tOverviewSection('trainedTranslators')}</div>
                 </div>
                 <div className="text-center">
                   <Languages className="h-8 w-8 text-orange-600 mx-auto mb-2" />
                   <div className="text-2xl font-bold text-gray-900">442</div>
-                  <div className="text-sm text-gray-600">Languages / Dialects Received Training</div>
+                  <div className="text-sm text-gray-600"> {tOverviewSection('languages')}</div>
                 </div>
                 <div className="text-center">
                   <Speech className="h-8 w-8 text-purple-600 mx-auto mb-2" />
                   <div className="text-2xl font-bold text-gray-900">585</div>
-                  <div className="text-sm text-gray-600">Active Translators</div>
+                  <div className="text-sm text-gray-600"> {tOverviewSection('activeTranslators')}</div>
                 </div>
                 <div className="text-center">
                   <FolderCheck className="h-8 w-8 text-green-600 mx-auto mb-2" />
                   <div className="text-2xl font-bold text-gray-900">65</div>
-                  <div className="text-sm text-gray-600">Active Projects</div>
+                  <div className="text-sm text-gray-600"> {tOverviewSection('activeProjects')}</div>
                 </div>
               </div>
             </div>

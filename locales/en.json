@@ -34,6 +34,19 @@
     }
   },
   "bibleTranslationTrainingPage" : {
+    "heroSection":{
+      "title" : "Bible Translation Training",
+      "description" :"Equipping local communities with the skills and knowledge needed to translate God's Word into their heart languages."
+    },
+    "overviewSection" : {
+      "title1" : "Equipping Believers to",
+      "title2" : "Translate God’s Word",
+      "description" :" At the heart of our mission is the belief that every language community deserves access to God’s Word in their mother tongue. Our Bible Translation Training program is designed to equip local believers with the skills, tools, and spiritual foundation necessary to translate the Scriptures with accuracy dan clarity.",
+      "trainedTranslators" :"Trained Translator",
+      "languages" : "Languages / Dialects Received Training",
+      "activeTranslators" : "Active Translators",
+      "activeProjects" : "Active Projects"
+    },
     "trainingProcessSection" : {
       "title" : "8 Steps of MAST",
       "subtitle" : "The 8 steps of MAST (Mobilized Assistance Supporting Translation) can be used to draft Scripture into either a written or an audio format, then carefully check it.",

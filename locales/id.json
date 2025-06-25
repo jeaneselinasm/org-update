@@ -33,6 +33,19 @@
     }
   },
   "bibleTranslationTrainingPage" : {
+    "heroSection":{
+      "title" : "Pelatihan Penerjemahan Alkitab",
+      "description" :"Memperlengkapi komunitas lokal dengan keterampilan dan pengetahuan yang dibutuhkan untuk menerjemahkan Firman Tuhan ke dalam bahasa hati mereka."
+    },
+    "overviewSection" : {
+      "title1" : "Memperlengkapi Orang Percaya",
+      "title2" : "untuk Menerjemahkan Firman Tuhan",
+      "description" :"Inti dari misi kami adalah keyakinan bahwa setiap komunitas bahasa berhak mendapatkan akses ke Firman Tuhan dalam bahasa ibu mereka. Program Pelatihan Penerjemahan Alkitab kami dirancang untuk memperlengkapi orang-orang percaya setempat dengan keterampilan, alat, dan dasar spiritual yang diperlukan untuk menerjemahkan Alkitab dengan akurat dan jelas.",
+      "trainedTranslators" :"Penerjemah yang Telah Dilatih",
+      "languages" : "Bahasa/Dialek yang Telah Menerima Pelatihan",
+      "activeTranslators" : "Penerjemah Aktif",
+      "activeProjects" : "Proyek Aktif"
+    },
     "trainingProcessSection" : {
       "title" : "8 Langkah MAST",
       "subtitle" : "Delapan langkah MAST (Mobilized Assistance Supporting Translation) dapat digunakan untuk menyusun Alkitab ke dalam format tertulis atau audio, kemudian memeriksanya dengan cermat.",
