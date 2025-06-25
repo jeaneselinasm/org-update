@@ -255,7 +255,7 @@ export default function BibleTranslationTrainingPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
               {tTrainingProcessSection("title")}
             </h2>
             <p className="text-lg text-gray-600">
@@ -268,7 +268,7 @@ export default function BibleTranslationTrainingPage() {
               <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-blue-900">1</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-blue-900 mb-2">
                 {tTrainingProcessSection("step1Title")}
               </h3>
               <p className="text-gray-600">
@@ -280,7 +280,7 @@ export default function BibleTranslationTrainingPage() {
               <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-green-900">2</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-blue-900 mb-2">
                 {tTrainingProcessSection("step2Title")}
               </h3>
               <p className="text-gray-600">
@@ -292,7 +292,7 @@ export default function BibleTranslationTrainingPage() {
               <div className="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-purple-900">3</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-blue-900 mb-2">
                 {tTrainingProcessSection("step3Title")}
               </h3>
               <p className="text-gray-600">
@@ -304,7 +304,7 @@ export default function BibleTranslationTrainingPage() {
               <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-orange-900">4</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-blue-900 mb-2">
                 {tTrainingProcessSection("step4Title")}
               </h3>
               <p className="text-gray-600">
@@ -316,7 +316,7 @@ export default function BibleTranslationTrainingPage() {
               <div className="bg-lime-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-lime-900">5</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-blue-900 mb-2">
                 {tTrainingProcessSection("step5Title")}
               </h3>
               <p className="text-gray-600">
@@ -328,7 +328,7 @@ export default function BibleTranslationTrainingPage() {
               <div className="bg-amber-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-amber-900">6</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-blue-900 mb-2">
                 {tTrainingProcessSection("step6Title")}
               </h3>
               <p className="text-gray-600">
@@ -340,7 +340,7 @@ export default function BibleTranslationTrainingPage() {
               <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-teal-900">7</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-blue-900 mb-2">
                 {tTrainingProcessSection("step7Title")}
               </h3>
               <p className="text-gray-600">
@@ -352,7 +352,7 @@ export default function BibleTranslationTrainingPage() {
               <div className="bg-rose-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-rose-900">8</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-blue-900 mb-2">
                 {tTrainingProcessSection("step8Title")}
               </h3>
               <p className="text-gray-600">
