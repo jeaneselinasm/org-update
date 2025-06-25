@@ -11,14 +11,14 @@
       "donateButton": "Donasi Sekarang"
     },
     "projectSection": {
-      "title": " Our Impact Across Indonesia",
+      "title": "Dampak Kami di Seluruh Indonesia",
       "subtitle": " Lihat bagaimana Tuhan bekerja melalui penerjemahan Alkitab di seluruh nusantara",
       "statisticTrainedPeople": "Orang yang Telah Dilatih",
       "statisticActiveProjects": "Proyek Aktif",
       "statisticActiveTranslator": "Penerjemah Aktif",
-      "statisticNT": "Bahasa yang Telah Menyelesaikan Terjemahan Perjanjian Baru",
-      "statisticOT": "Bahasa yang Telah Menyelesaikan Terjemahan Perjanjian Lama",
-      "statisticPrintedBibles": "Alkitab yang Telah Dicetak Edisi Percobaan"
+      "statisticNT": "Bahasa yang Telah Menyelesaikan PB",
+      "statisticOT": "Bahasa yang Telah Menyelesaikan PL",
+      "statisticPrintedBibles": "Alkitab Bahasa Suku yang Telah Dicetak"
     },
     "ministrySection": {
       "title": "Pelayanan Kami",
@@ -90,5 +90,17 @@
       "description": "Apakah Anda bersemangat untuk membawa Firman Tuhan ke komunitas Anda? Program pelatihan kami dapat memperlengkapi Anda dengan keterampilan dan pengetahuan yang dibutuhkan untuk memberikan dampak yang kekal.",
       "buttonCTA" : "Mendaftar Untuk Pelatihan"
     }
+  },
+   "footer" : {
+    "description" : "Menerjemahkan Firman Tuhan ke dalam setiap bahasa dan membawa transformasi bagi setiap suku.",
+    "registration" : "Terdaftar Pada",
+  "allRightsReserved": "Semua Hak Dilindungi",
+ "registration1": "Kementerian Hukum dan Hak Asasi Manusia Indonesia No. AHU-0034498.AH.01.12 (2022)",
+    "registration2": "Kementerian Agama Republik Indonesia, Surat Direktur Jenderal Bimbingan Masyarakat Kristen No. 363 (2023)",
+    "registration3": "Persekutuan Gereja dan Lembaga Injili Indonesia / PGLII",
+    "registration4": "Anggota Teregistrasi dari Perkumpulan Majelis Penatalayanan dan Akuntabilitas Kristiani Indonesia sejak 2023",
+    "registration5": "Anggota Asosiasi Aliansi Injili Asia",
+    "privacyPolicyTitle": "Kebijakan Privasi",
+      "connectWithUs": "Terhubung dengan Kami"
   }
 }
