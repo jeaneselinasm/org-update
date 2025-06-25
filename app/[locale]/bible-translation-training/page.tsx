@@ -5,24 +5,15 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import {
-  Globe,
-  ArrowLeft,
-  BookOpen,
   Users,
-  GraduationCap,
   Target,
   CheckCircle,
-  Clock,
   MapPin,
-  Award,
   Languages,
-  FileText,
-  Lightbulb,
   Heart,
   Speech,
   FolderCheck,
   MessageCircleQuestion,
-  User
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
@@ -322,7 +313,7 @@ export default function BibleTranslationTrainingPage() {
       </section>
 
       {/* Success Stories */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Success Stories</h2>
@@ -403,7 +394,7 @@ export default function BibleTranslationTrainingPage() {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Call to Action */}
       <section className="py-20 bg-blue-900 text-white">
