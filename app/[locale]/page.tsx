@@ -23,11 +23,13 @@ import { Badge } from "@/components/ui/badge";
 import { RotateWords } from "@/components/rotate-words";
 import ResponsiveNavigation from "@/components/navigation-bar";
 import { useLocale, useTranslations } from "next-intl"
+import { useRouter } from "next/router";
 
 export default function HomePage() {
   const theroSection = useTranslations("homePage.heroSection")
   const tprojectSection = useTranslations("homePage.projectSection")
   const tministrySection = useTranslations("homePage.ministrySection")
+  const locale = useLocale()
   return (
     <div className=" bg-white">
       {/* Navigation */}
@@ -232,12 +234,14 @@ export default function HomePage() {
               subtitle={tministrySection('bibleTranslationTrainingSubtitle')}
               image="/bible-translation-training.png"
               description={tministrySection('bibleTranslationTrainingDescription')}
+               link={`/${locale}/bible-translation-training`}
             />
             <MorphingDialogBasicOne
               title={tministrySection('openBibleEducationTitle')}
               subtitle={tministrySection('openBibleEducationSubtitle')}
               image="/14.png"
               description="a"
+              link=""
             />
 
             <MorphingDialogBasicOne
@@ -245,6 +249,7 @@ export default function HomePage() {
               subtitle={tministrySection('communityDevelopmentSubtitle')}
               image="/installment.png"
                description="a"
+               link=""
             />
           </div>
         </div>

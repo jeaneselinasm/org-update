@@ -14,10 +14,11 @@ interface MorphingDialogBasicOneProps {
   title : string
   subtitle : string
   image :  string,
-  description : string
+  description : string,
+  link : string
 
 }
-export function MorphingDialogBasicOne({title,subtitle, image, description} : MorphingDialogBasicOneProps) {
+export function MorphingDialogBasicOne({title,subtitle, image, description, link} : MorphingDialogBasicOneProps) {
   return (
     <MorphingDialog
       transition={{
@@ -75,7 +76,7 @@ export function MorphingDialogBasicOne({title,subtitle, image, description} : Mo
               </p>
               <a
                 className='mt-2 inline-flex text-zinc-500 underline'
-                href='https://www.are.na/block/12759029'
+                href={link}
                 target='_blank'
                 rel='noopener noreferrer'
               >
