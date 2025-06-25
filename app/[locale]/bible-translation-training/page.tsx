@@ -40,6 +40,9 @@ export default function BibleTranslationTrainingPage() {
   const tTrainingProgramsSection = useTranslations(
     "bibleTranslationTrainingPage.trainingProgramsSection"
   );
+   const tCallToActionSection = useTranslations(
+    "bibleTranslationTrainingPage.callToActionSection"
+  );
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
@@ -452,19 +455,17 @@ export default function BibleTranslationTrainingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Heart className="h-16 w-16 mx-auto mb-6 " />
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Join Our Training Program
+             {tCallToActionSection("title")}
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto ">
-            Are you passionate about bringing God's Word to your community? Our
-            training programs can equip you with the skills and knowledge needed
-            to make an eternal impact.
+            {tCallToActionSection("description")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
               className="bg-blue-200 text-blue-900 hover:bg-orange-200 hover:text-orange-700"
             >
-              Apply for Training
+             {tCallToActionSection("buttonCTA")}
             </Button>
           
           </div>

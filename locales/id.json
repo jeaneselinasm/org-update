@@ -84,6 +84,11 @@
       "step7Subtitle" : "Temukan kata kunci lalu Anda dan rekan Anda harus membandingkan sumber teks dengan hasil terjemahan Anda.",
        "step8Title" : "Periksa Ayat Demi Ayat",
       "step8Subtitle" : "Baca seluruh bagian Alkitab yang akan Anda kerjakan. Cobalah untuk memahami makna dan poin utama bagian tersebut."
+    },
+    "callToActionSection":{
+      "title" : "Bergabunglah dengan Program Pelatihan Kami",
+      "description": "Apakah Anda bersemangat untuk membawa Firman Tuhan ke komunitas Anda? Program pelatihan kami dapat memperlengkapi Anda dengan keterampilan dan pengetahuan yang dibutuhkan untuk memberikan dampak yang kekal.",
+      "buttonCTA" : "Mendaftar Untuk Pelatihan"
     }
   }
 }

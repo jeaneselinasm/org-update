@@ -85,6 +85,11 @@
       "step7Subtitle" : "First, you and a partner must identify key words and important concepts in each verse of the source text.",
        "step8Title" : "Verse-by-Verse Check",
       "step8Subtitle" : "Two additional individuals, apart from the translator, are involved. These partners should be proficient in both the mother tongue and source language."
+    },
+    "callToActionSection":{
+      "title" : "Join Our Training Program",
+      "description": "  Are you passionate about bringing God's Word to your community? Our training programs can equip you with the skills and knowledge needed to make an eternal impact.",
+      "buttonCTA" : "Apply for Training"
     }
   }
 }
