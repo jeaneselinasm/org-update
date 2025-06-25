@@ -46,6 +46,25 @@
       "activeTranslators" : "Penerjemah Aktif",
       "activeProjects" : "Proyek Aktif"
     },
+    "trainingProgramsSection" : {
+      "whyTitle" : "Mengapa Pelatihan Penerjemahan Alkitab ?",
+      "whyDescripton":"Jutaan orang masih belum memiliki akses ke Alkitab lengkap dalam bahasa mereka sendiri. Program pelatihan ini memberdayakan masyarakat untuk mengambil alih kepemilikan dalam upaya penerjemahan Alkitab, memastikan bahwa terjemahan yang dihasilkan adalah:",
+      "whyPoints1": "Setia pada makna aslinya",
+      "whyPoints2": "Dapat dimengerti oleh penutur bahasa",
+      "whyPoints3": "Diekspresikan secara alami dalam bahasa lokal",
+      "whoTitle" : "Siapa yang Bisa Bergabung?",
+      "whoDescription": "Kami menyambut : ", 
+      "whoPoints1": "Pemimpin gereja dan orang-orang yang memiliki panggilan untuk menerjemahkan Alkitab",
+      "whoPoints2": "Orang percaya lokal yang fasih berbahasa ibu dan bahasa Indonesia",
+      "whoPoints3": "Mereka yang memiliki hasrat untuk pengembangan bahasa dan keterlibatan Alkitab.",
+      "whoFootnote": "Tidak diperlukan pengalaman penerjemahan sebelumnya - hanya hati yang ingin melayani dan kemauan untuk belajar.",
+      "whatTitle" : "Apa Hasil yang Akan Dicapai Setelah Pelatihan?",
+      "whatDescripton":"Pada akhir pelatihan, para peserta akan dapat:",
+      "whatPoints1": "Memahami konsep-konsep kunci dalam penerjemahan Alkitab",
+      "whatPoints2": "Mulai menyusun Alkitab dalam bahasa hati mereka",
+      "whatPoints3": "Menggunakan perangkat lunak untuk membantu penerjemahan",
+      "whatPoints4": "Berkolaborasi dalam tim penerjemahan di bawah bimbingan pemimpin"
+    },
     "trainingProcessSection" : {
       "title" : "8 Langkah MAST",
       "subtitle" : "Delapan langkah MAST (Mobilized Assistance Supporting Translation) dapat digunakan untuk menyusun Alkitab ke dalam format tertulis atau audio, kemudian memeriksanya dengan cermat.",

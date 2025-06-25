@@ -47,6 +47,25 @@
       "activeTranslators" : "Active Translators",
       "activeProjects" : "Active Projects"
     },
+    "trainingProgramsSection" : {
+      "whyTitle" : "Why Bible Translation Training ? ",
+      "whyDescripton":"Millions of people still do not have access to the full Bible in their own language. This training program empowers communities to take ownership of Bible translation efforts, ensuring that translations are:",
+      "whyPoints1": " Faithful to the original meaning",
+      "whyPoints2": " Understandable to local readers",
+      "whyPoints3": " Naturally expressed in the local language",
+      "whoTitle" : "Who Can Join ?",
+      "whoDescription": " We welcome:", 
+      "whoPoints1": " Church leaders and people with a calling to Bible translation",
+      "whoPoints2": " Local believers fluent in their mother tongue and Indonesian",
+      "whoPoints3": " Those with a passion for language development and Scripture engagement",
+      "whoFootnote": "  No prior translation experience is needed—just a heart to serve and willingness to learn.",
+      "whatTitle" : "What is The Outcomes After Training ?",
+      "whatDescripton":"By the end of the training, participants will be able to:",
+      "whatPoints1": "Understand key concepts in Bible translation",
+      "whatPoints2": "  Begin drafting Scripture in their heart language",
+      "whatPoints3": " Use translation software",
+      "whatPoints4": " Collaborate in a translation team under the guidance of the leader"
+    },
     "trainingProcessSection" : {
       "title" : "8 Steps of MAST",
       "subtitle" : "The 8 steps of MAST (Mobilized Assistance Supporting Translation) can be used to draft Scripture into either a written or an audio format, then carefully check it.",
