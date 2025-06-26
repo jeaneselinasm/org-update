@@ -253,42 +253,42 @@ export default function OpenBibleEducationPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why It Matters</h2>
-            <p className="text-xl text-gray-600">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#284551] mb-4">Why It Matters</h2>
+            <p className="text-xl text-[#2f778b]">
               Building biblically grounded, spiritually mature, mission-ready churches
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="bg-blue-50 rounded-lg p-8">
-              <blockquote className="text-xl text-gray-700 italic mb-6">
+              <blockquote className="text-xl text-[#2f687a] italic mb-6">
                 "A solid biblical foundation is vital for a thriving church. Open Bible Education allows us to train
                 leaders even in the most remote areas."
               </blockquote>
-              <cite className="text-blue-900 font-semibold">— Program Facilitator, Papua Region</cite>
+              <cite className="text-[#284551] font-semibold">— Program Facilitator, Papua Region</cite>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Program Impact</h3>
-              <p className="text-lg text-gray-700 mb-6">
+              <h3 className="text-2xl font-bold text-[#284551] mb-4">Program Impact</h3>
+              <p className="text-lg text-[#2f687a] mb-6">
                 This program helps fulfill the vision of a biblically grounded, spiritually mature, and mission-ready
                 church, especially in places where theological training has been inaccessible or unaffordable.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
-                  <span className="text-gray-700">Accessible theological education for remote communities</span>
+                  <CheckCircle className="h-6 w-6 text-[#2f778b] mr-3" />
+                  <span className="text-[#2f687a]">Accessible theological education for remote communities</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
-                  <span className="text-gray-700">Free, high-quality seminary-level content</span>
+                  <CheckCircle className="h-6 w-6 text-[#2f778b] mr-3" />
+                  <span className="text-[#2f687a]">Free, high-quality seminary-level content</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
-                  <span className="text-gray-700">Culturally contextualized for Indonesian churches</span>
+                  <CheckCircle className="h-6 w-6 text-[#2f778b] mr-3" />
+                  <span className="text-[#2f687a]">Culturally contextualized for Indonesian churches</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
-                  <span className="text-gray-700">Flexible learning for busy ministry leaders</span>
+                  <CheckCircle className="h-6 w-6 text-[#2f778b] mr-3" />
+                  <span className="text-[#2f687a]">Flexible learning for busy ministry leaders</span>
                 </div>
               </div>
             </div>
@@ -308,7 +308,7 @@ export default function OpenBibleEducationPage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <Card className="bg-white text-gray-900 hover:shadow-lg transition-shadow">
+            <Card className="bg-white text-[#284551] hover:shadow-lg transition-shadow">
               <CardContent className="pt-6 text-center">
                 <FileText className="h-12 w-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Download Materials</h3>
