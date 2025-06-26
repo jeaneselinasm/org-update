@@ -91,11 +91,11 @@
       "buttonCTA": "Apply for Training"
     }
   },
-  "openBibleEducation": {
+  "openBibleEducationPage": {
     "heroSection": {
       "title": "Open Bible Education",
       "subtitle": " In Partnership with Thirdmill Institute",
-      "description": " Empowering Church Leaders with Free, Quality Biblical Training"
+      "description": " Empowering Church Leaders with Free and Quality Biblical Training"
     },
     "overviewSection": {
       "title": "What Is Open Bible Education?",
@@ -104,7 +104,7 @@
       "description3": " Through our partnership with Thirdmill Institute, we offer a clear path for spiritual growth, theological depth, and ministry readiness for communities across Indonesia and beyond.",
       "cardTitle": "Partnership with Thirdmill Institute",
       "cardDescription": "Thirdmill Institute is a ministry committed to providing free, seminary level biblical education to the world.",
-      "cardPoint1": "Video Lessons",
+      "cardPoint1": "Lessons Video",
       "cardPoint2": "Downloadable study materials",
       "cardPoint3": "Interactive assessments",
       "cardPoint4": "Mentorship and discussion groups",

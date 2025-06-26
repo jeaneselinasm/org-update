@@ -91,7 +91,7 @@
       "buttonCTA" : "Mendaftar Untuk Pelatihan"
     }
   },
-    "openBibleEducation": {
+    "openBibleEducationPage": {
     "heroSection": {
       "title": "Pendidikan Alkitab Terbuka",
       "subtitle": "Dalam Kemitraan dengan Thirdmill Institute",
@@ -114,20 +114,20 @@
       "title": "Program - Program",
       "subtitle": "Pendidikan teologi yang komprehensif yang dirancang untuk aplikasi pelayanan praktis",
       "card1Title": "Sertifikat Dasar",
-      "card1Subtitle": "Terdiri dari empat mata kuliah pengantar dalam Alkitab dan Teologi :",
+      "card1Subtitle": "Terdiri dari empat mata kuliah pengantar dalam Alkitab dan Teologi:",
       "card1Point1": "Dasar-dasar Alkitabiah",
       "card1Point2": "Dasar-dasar Teologis",
       "card1Point3": "Dasar-dasar Perjanjian Lama",
       "card1Point4": "Dasar-dasar Perjanjian Baru",
       "card2Title": "Sertifikat dalam Studi Alkitab",
-      "card2Subtitle": "Terdiri dari lima mata kuliah mengenai Alkitab :",
+      "card2Subtitle": "Terdiri dari lima mata kuliah mengenai Alkitab:",
       "card2Point1": "Narasi Perjanjian Lama",
       "card2Point2": "Nabi-nabi Perjanjian Lama",
       "card2Point3": "Studi Paulus",
       "card2Point4": "Surat-surat Perjanjian Baru",
       "card2Point5": "Penafsiran Alkitab",
       "card3Title": "Sertifikat dalam Studi Teologi",
-      "card3Subtitle": "Terdiri dari lima mata kuliah tentang Teologi :",
+      "card3Subtitle": "Terdiri dari lima mata kuliah tentang Teologi:",
       "card3Point1": "Doktrin Tentang Tuhan",
       "card3Point2": "Kristologi",
       "card3Point3": "Pneumatologi",

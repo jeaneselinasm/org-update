@@ -1,6 +1,7 @@
 "use client"
 
 import Footer from "@/components/footer"
+import ResponsiveNavigation from "@/components/navigation-bar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
@@ -20,16 +21,25 @@ import {
   BookOpenText,
   Album
 } from "lucide-react"
+import { useTranslations } from "next-intl"
 import Link from "next/link"
 import { useState } from "react"
 
 export default function OpenBibleEducationPage() {
   const [language, setLanguage] = useState("en")
-
+  const tHeroSection = useTranslations('openBibleEducationPage.heroSection') 
+const  tOverviewSection = useTranslations('openBibleEducationPage.overviewSection')
+const  tProgramSection = useTranslations('openBibleEducationPage.programSection')
+const  tWhoCanJoinSection = useTranslations('openBibleEducationPage.whoCanJoinSection')
+const  tWhyItMattersSection = useTranslations('openBibleEducationPage.whyItMattersSection')
+const  tGetStartedSection = useTranslations('openBibleEducationPage.getStartedSection')
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm border-b sticky top-0 z-50">
+
+      <ResponsiveNavigation />
+
+      {/* <nav className="bg-white shadow-sm border-b sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0">
@@ -76,27 +86,27 @@ export default function OpenBibleEducationPage() {
             </div>
           </div>
         </div>
-      </nav>
+      </nav> */}
 
       {/* Back Navigation */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <Link href="/" className="inline-flex items-center text-blue-900 hover:text-blue-700 transition-colors">
           <ArrowLeft className="h-4 w-4 mr-2" />
           Back to Home
         </Link>
-      </div>
+      </div> */}
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[#2f687a] to-[#51adbf] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <School className="h-16 w-16 mx-auto mb-6 text-[#162c36]" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Open Bible Education</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6"> {tHeroSection('title')} </h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto text-[#daf0f3] mb-4">
-              In Partnership with Thirdmill Institute
+              {tHeroSection('subtitle')}
             </p>
             <p className="text-lg md:text-xl max-w-4xl mx-auto text-[#162c36]">
-              Empowering Church Leaders with Free, High-Quality Biblical Training
+               {tHeroSection('description')}
             </p>
           </div>
         </div>
@@ -107,51 +117,47 @@ export default function OpenBibleEducationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#162c36] mb-6">What Is Open Bible Education?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#162c36] mb-6"> {tOverviewSection('title')} </h2>
               <p className="text-lg text-[#2f687a] mb-6">
-                At Bahtraku, we believe every believer—especially those in underserved, remote, or indigenous
-                communities—should have access to solid, biblical education, regardless of location, background, or
-                financial status.
+             {tOverviewSection('description1')} 
               </p>
               <p className="text-lg text-[#2f687a] mb-6">
-                Open Bible Education is a non-formal biblical training program that provides free, high-quality
-                theological education using Thirdmill Institute's globally recognized curriculum. This program is
-                designed to equip church leaders, emerging pastors, and Bible teachers who may not have the opportunity
-                to attend formal seminaries.
+                             {tOverviewSection('description2')} 
+
               </p>
               <p className="text-lg text-[#2f687a]">
-                Through our partnership with Thirdmill Institute, we offer a clear path for spiritual growth,
-                theological depth, and ministry readiness for communities across Indonesia and beyond.
+                             {tOverviewSection('description3')} 
+
               </p>
             </div>
             <div className="bg-[#f0fafb] rounded-lg p-8">
               <div className="text-center mb-6">
-                <h3 className="text-xl font-bold text-[#284551] mb-4">Partnership with Thirdmill Institute</h3>
+                <h3 className="text-xl font-bold text-[#284551] mb-4">             {tOverviewSection('cardTitle')} 
+</h3>
                 <p className="text-[#2f687a] mb-4">
-                  Thirdmill Institute is a ministry committed to providing free, seminary-level biblical education to
-                  the world.
+                 {tOverviewSection('cardDescription')} 
                 </p>
               </div>
               <div className="space-y-3">
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-[#2f778b] mr-3" />
-                  <span className="text-gray-700">Theological video lessons</span>
+                  <span className="text-gray-700">{tOverviewSection('cardPoint1')} </span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-[#2f778b] mr-3" />
-                  <span className="text-gray-700">Downloadable study guides</span>
+                  <span className="text-gray-700">{tOverviewSection('cardPoint2')}</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-[#2f778b] mr-3" />
-                  <span className="text-gray-700">Interactive assessments</span>
+                  <span className="text-gray-700">{tOverviewSection('cardPoint3')}</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-[#2f778b] mr-3" />
-                  <span className="text-gray-700">Mentorship and discussion groups</span>
+                  <span className="text-gray-700">{tOverviewSection('cardPoint4')}</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-[#2f778b] mr-3" />
-                  <span className="text-gray-700">Certificates of completion</span>
+                  <span className="text-gray-700">{tOverviewSection('cardPoint5')}</span>
                 </div>
               </div>
             </div>
@@ -163,9 +169,9 @@ export default function OpenBibleEducationPage() {
       <section className="py-20 bg-[#f0fafb]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#162c36] mb-4">Program Features</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#162c36] mb-4">{tProgramSection('title')}</h2>
             <p className="text-xl text-[#2f687a]">
-              Comprehensive theological education designed for practical ministry application
+             {tProgramSection('subtitle')}
             </p>
           </div>
 
@@ -173,17 +179,17 @@ export default function OpenBibleEducationPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <BookOpen className="h-8 w-8 text-blue-500 mb-2" />
-                <CardTitle className="text-xl text-blue-900">Foundation Certificate</CardTitle>
+                <CardTitle className="text-xl text-blue-900">{tProgramSection('card1Title')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                 Consists of four introductory courses in Bible and Theology :
+               {tProgramSection('card1Subtitle')}
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Biblical Foundations</li>
-                  <li>• Theological Foundations</li>
-                  <li>• Old Testament Foundations</li>
-                  <li>• New Testament Foundations</li>
+                  <li>• {tProgramSection('card1Point1')}</li>
+                  <li>• {tProgramSection('card1Point2')}</li>
+                  <li>• {tProgramSection('card1Point3')}</li>
+                  <li>• {tProgramSection('card1Point4')}</li>
                 </ul>
               </CardContent>
             </Card>
@@ -191,16 +197,16 @@ export default function OpenBibleEducationPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <BookOpenText className="h-8 w-8 text-green-500 mb-2" />
-                <CardTitle className="text-xl text-blue-900">Certificate in Biblical Studies</CardTitle>
+                <CardTitle className="text-xl text-blue-900">{tProgramSection('card2Title')}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4">Consists of five courses on the Bible:</p>
+                <p className="text-gray-600 mb-4">{tProgramSection('card2Subtitle')}</p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Old Testament Narratvies </li>
-                  <li>• Old Testament Prophets </li>
-                  <li>• Pauline Studies </li>
-                  <li>• New Testament Epistles </li>
-                  <li>• Biblical Interpretation </li>
+                  <li>• {tProgramSection('card2Point1')}</li>
+                  <li>• {tProgramSection('card2Point2')}</li>
+                  <li>• {tProgramSection('card2Point3')}</li>
+                  <li>• {tProgramSection('card2Point4')}</li>
+                  <li>• {tProgramSection('card2Point5')}</li>
                 </ul>
               </CardContent>
             </Card>
@@ -208,16 +214,16 @@ export default function OpenBibleEducationPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Album className="h-8 w-8 text-purple-500 mb-2" />
-                <CardTitle className="text-xl text-blue-900">Certificate in Theological Studies</CardTitle>
+                <CardTitle className="text-xl text-blue-900">{tProgramSection('card3Title')}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4">Consists of five courses on theology:</p>
+                <p className="text-gray-600 mb-4">{tProgramSection('card3Subtitle')}</p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• The Doctrine of God</li>
-                  <li>• Christology</li>
-                  <li>• Pneumatology</li>
-                  <li>• Anthropology & Eschatology</li>
-                  <li>• Biblical Ethics</li>
+                  <li>• {tProgramSection('card3Point1')}</li>
+                  <li>• {tProgramSection('card3Point2')}</li>
+                  <li>• {tProgramSection('card3Point3')}</li>
+                  <li>• {tProgramSection('card3Point4')}</li>
+                  <li>• {tProgramSection('card3Point5')}</li>
                 </ul>
               </CardContent>
             </Card>
@@ -226,30 +232,30 @@ export default function OpenBibleEducationPage() {
 
           {/* Who Can Join Section */}
           <div className="bg-white rounded-lg shadow-lg p-8">
-            <h3 className="text-2xl font-bold text-[#162c36] mb-6 text-center">Who Can Join?</h3>
+            <h3 className="text-2xl font-bold text-[#162c36] mb-6 text-center">{tWhoCanJoinSection('title')}</h3>
             <p className="text-lg text-[#2f687a] mb-6 text-center">
-              The program is open to anyone with a teachable heart and desire to grow:
+              {tWhoCanJoinSection('subtitle')}
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center">
                 <GraduationCap className="h-8 w-8 text-blue-600 mx-auto mb-2" />
-                <h4 className="font-semibold text-[#284551]">Pastors & Church Planters</h4>
+                <h4 className="font-semibold text-[#284551]">{tWhoCanJoinSection('pastors')}</h4>
               </div>
               <div className="text-center">
                 <Users className="h-8 w-8 text-green-600 mx-auto mb-2" />
-                <h4 className="font-semibold text-[#284551]">Elders & Ministry Leaders</h4>
+                <h4 className="font-semibold text-[#284551]">{tWhoCanJoinSection('elders')}</h4>
               </div>
               <div className="text-center">
                 <BookOpen className="h-8 w-8 text-purple-600 mx-auto mb-2" />
-                <h4 className="font-semibold text-[#284551]">Bible Teachers</h4>
+                <h4 className="font-semibold text-[#284551]">{tWhoCanJoinSection('teachers')}</h4>
               </div>
               <div className="text-center">
                 <Heart className="h-8 w-8 text-red-600 mx-auto mb-2" />
-                <h4 className="font-semibold text-[#284551]">Growing Believers</h4>
+                <h4 className="font-semibold text-[#284551]">{tWhoCanJoinSection('believers')}</h4>
               </div>
             </div>
             <p className="text-center text-[#2f778b] mt-6 italic">
-              No prior academic background is required—just a teachable heart and a desire to grow.
+              {tWhoCanJoinSection('notes')}
             </p>
           </div>
         </div>
@@ -259,42 +265,40 @@ export default function OpenBibleEducationPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#284551] mb-4">Why It Matters</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#284551] mb-4">{tWhyItMattersSection('title')}</h2>
             <p className="text-xl text-[#2f778b]">
-              Building biblically grounded, spiritually mature, mission-ready churches
+           {tWhyItMattersSection('subtitle')}
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="bg-blue-50 rounded-lg p-8">
               <blockquote className="text-xl text-[#2f687a] italic mb-6">
-                "A solid biblical foundation is vital for a thriving church. Open Bible Education allows us to train
-                leaders even in the most remote areas."
+               {tWhyItMattersSection('testimonyQuote')}
               </blockquote>
-              <cite className="text-[#284551] font-semibold">— Program Facilitator, Papua Region</cite>
+              <cite className="text-[#284551] font-semibold">— {tWhyItMattersSection('facilitator')}</cite>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-[#284551] mb-4">Program Impact</h3>
+              <h3 className="text-2xl font-bold text-[#284551] mb-4">{tWhyItMattersSection('contentTitle')}</h3>
               <p className="text-lg text-[#2f687a] mb-6">
-                This program helps fulfill the vision of a biblically grounded, spiritually mature, and mission-ready
-                church, especially in places where theological training has been inaccessible or unaffordable.
+                {tWhyItMattersSection('contentSubtitle')}
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
                   <CheckCircle className="h-6 w-6 text-[#2f778b] mr-3" />
-                  <span className="text-[#2f687a]">Accessible theological education for remote communities</span>
+                  <span className="text-[#2f687a]">{tWhyItMattersSection('point1')}</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-6 w-6 text-[#2f778b] mr-3" />
-                  <span className="text-[#2f687a]">Free, high-quality seminary-level content</span>
+                  <span className="text-[#2f687a]">{tWhyItMattersSection('point2')}</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-6 w-6 text-[#2f778b] mr-3" />
-                  <span className="text-[#2f687a]">Culturally contextualized for Indonesian churches</span>
+                  <span className="text-[#2f687a]">{tWhyItMattersSection('point3')}</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-6 w-6 text-[#2f778b] mr-3" />
-                  <span className="text-[#2f687a]">Flexible learning for busy ministry leaders</span>
+                  <span className="text-[#2f687a]">{tWhyItMattersSection('point4')}</span>
                 </div>
               </div>
             </div>
@@ -307,9 +311,9 @@ export default function OpenBibleEducationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <BookOpen className="h-16 w-16 mx-auto mb-6 text-[#2b515f]" />
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#284551]">Get Started</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#284551]">{tGetStartedSection('title')}</h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto text-[#2f687a]">
-              Are you ready to grow in God's Word and serve more effectively?
+             {tGetStartedSection('subtitle')}
             </p>
           </div>
 
@@ -317,11 +321,11 @@ export default function OpenBibleEducationPage() {
             <Card className="bg-white text-[#284551] hover:shadow-lg transition-shadow">
               <CardContent className="pt-6 text-center">
                 <FileText className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-3">Download Materials</h3>
+                <h3 className="text-xl font-semibold mb-3">{tGetStartedSection('downloadTitle')}</h3>
                 <p className="text-gray-600 mb-4">
-                  Access study guides, video lessons, and resources for offline learning.
+                 {tGetStartedSection('downloadSubtitle')}
                 </p>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700">📥 Download Now</Button>
+                <Button className="w-full bg-blue-600 hover:bg-blue-700">📥 {tGetStartedSection('downloadButton')}</Button>
               </CardContent>
             </Card>
 
