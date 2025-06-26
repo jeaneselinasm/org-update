@@ -211,7 +211,7 @@ export default function OpenBibleEducationPage() {
                 <CardTitle className="text-xl text-blue-900">Certificate in Theological Studies</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4">Culturally relevant guidance for Indonesian contexts:</p>
+                <p className="text-gray-600 mb-4">Consists of five courses on theology:</p>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li>• The Doctrine of God</li>
                   <li>• Christology</li>

@@ -30,78 +30,98 @@
       "openBibleEducationSubtitle": "Open Bible Education program is designed to help believers not only read the Bible but also understand and apply its truths in their daily lives.",
       "communityDevelopmentTitle": "Community Development",
       "communityDevelopmentSubtitle": "Community Development initiatives aim to improve the quality of life in underserved areas, empowering communities to thrive spiritually, socially, and economically."
-
     }
   },
-  "bibleTranslationTrainingPage" : {
-    "heroSection":{
-      "title" : "Bible Translation Training",
-      "description" :"Equipping local communities with the skills and knowledge needed to translate God's Word into their heart languages."
+  "bibleTranslationTrainingPage": {
+    "heroSection": {
+      "title": "Bible Translation Training",
+      "description": "Equipping local communities with the skills and knowledge needed to translate God's Word into their heart languages."
     },
-    "overviewSection" : {
-      "title1" : "Equipping Believers to",
-      "title2" : "Translate God’s Word",
-      "description" :" At the heart of our mission is the belief that every language community deserves access to God’s Word in their mother tongue. Our Bible Translation Training program is designed to equip local believers with the skills, tools, and spiritual foundation necessary to translate the Scriptures with accuracy dan clarity.",
-      "trainedTranslators" :"Trained Translator",
-      "languages" : "Languages / Dialects Received Training",
-      "activeTranslators" : "Active Translators",
-      "activeProjects" : "Active Projects"
+    "overviewSection": {
+      "title1": "Equipping Believers to",
+      "title2": "Translate God’s Word",
+      "description": " At the heart of our mission is the belief that every language community deserves access to God’s Word in their mother tongue. Our Bible Translation Training program is designed to equip local believers with the skills, tools, and spiritual foundation necessary to translate the Scriptures with accuracy dan clarity.",
+      "trainedTranslators": "Trained Translator",
+      "languages": "Languages / Dialects Received Training",
+      "activeTranslators": "Active Translators",
+      "activeProjects": "Active Projects"
     },
-    "trainingProgramsSection" : {
-      "whyTitle" : "Why Bible Translation Training ? ",
-      "whyDescripton":"Millions of people still do not have access to the full Bible in their own language. This training program empowers communities to take ownership of Bible translation efforts, ensuring that translations are:",
+    "trainingProgramsSection": {
+      "whyTitle": "Why Bible Translation Training ? ",
+      "whyDescripton": "Millions of people still do not have access to the full Bible in their own language. This training program empowers communities to take ownership of Bible translation efforts, ensuring that translations are:",
       "whyPoints1": " Faithful to the original meaning",
       "whyPoints2": " Understandable to local readers",
       "whyPoints3": " Naturally expressed in the local language",
-      "whoTitle" : "Who Can Join ?",
-      "whoDescription": " We welcome:", 
+      "whoTitle": "Who Can Join ?",
+      "whoDescription": " We welcome:",
       "whoPoints1": " Church leaders and people with a calling to Bible translation",
       "whoPoints2": " Local believers fluent in their mother tongue and Indonesian",
       "whoPoints3": " Those with a passion for language development and Scripture engagement",
       "whoFootnote": "  No prior translation experience is needed—just a heart to serve and willingness to learn.",
-      "whatTitle" : "What is The Outcomes After Training ?",
-      "whatDescripton":"By the end of the training, participants will be able to:",
+      "whatTitle": "What is The Outcomes After Training ?",
+      "whatDescripton": "By the end of the training, participants will be able to:",
       "whatPoints1": "Understand key concepts in Bible translation",
       "whatPoints2": "  Begin drafting Scripture in their heart language",
       "whatPoints3": " Use translation software",
       "whatPoints4": " Collaborate in a translation team under the guidance of the leader"
     },
-    "trainingProcessSection" : {
-      "title" : "8 Steps of MAST",
-      "subtitle" : "The 8 steps of MAST (Mobilized Assistance Supporting Translation) can be used to draft Scripture into either a written or an audio format, then carefully check it.",
-      "step1Title" : "Consume",
-      "step1Subtitle" : "Read or listen to the entire chapter, aiming to grasp its meaning and main point. ",
-       "step2Title" : "Verbalize",
-      "step2Subtitle" : "In this step, verbally summarize the main people, events, and ideas of a chapter in your native language.",
-       "step3Title" : "Chunk",
-      "step3Subtitle" : "Chunking involves dividing a chapter of Scripture into smaller, easily memorable parts.",
-       "step4Title" : "Blind Draft",
-      "step4Subtitle" : "Read or listen to the first chunk of your chapter. Without referencing the source material.",
-       "step5Title" : "Self-Edit",
-      "step5Subtitle" : "Look at (or listen to) the source text again and compare it to what you have written (or recorded).",
-       "step6Title" : "Peer-Edit",
-      "step6Subtitle" : "Ask a team member to carefully review your blind draft translation. ",
-       "step7Title" : "Key Word Check",
-      "step7Subtitle" : "First, you and a partner must identify key words and important concepts in each verse of the source text.",
-       "step8Title" : "Verse-by-Verse Check",
-      "step8Subtitle" : "Two additional individuals, apart from the translator, are involved. These partners should be proficient in both the mother tongue and source language."
+    "trainingProcessSection": {
+      "title": "8 Steps of MAST",
+      "subtitle": "The 8 steps of MAST (Mobilized Assistance Supporting Translation) can be used to draft Scripture into either a written or an audio format, then carefully check it.",
+      "step1Title": "Consume",
+      "step1Subtitle": "Read or listen to the entire chapter, aiming to grasp its meaning and main point. ",
+      "step2Title": "Verbalize",
+      "step2Subtitle": "In this step, verbally summarize the main people, events, and ideas of a chapter in your native language.",
+      "step3Title": "Chunk",
+      "step3Subtitle": "Chunking involves dividing a chapter of Scripture into smaller, easily memorable parts.",
+      "step4Title": "Blind Draft",
+      "step4Subtitle": "Read or listen to the first chunk of your chapter. Without referencing the source material.",
+      "step5Title": "Self-Edit",
+      "step5Subtitle": "Look at (or listen to) the source text again and compare it to what you have written (or recorded).",
+      "step6Title": "Peer-Edit",
+      "step6Subtitle": "Ask a team member to carefully review your blind draft translation. ",
+      "step7Title": "Key Word Check",
+      "step7Subtitle": "First, you and a partner must identify key words and important concepts in each verse of the source text.",
+      "step8Title": "Verse-by-Verse Check",
+      "step8Subtitle": "Two additional individuals, apart from the translator, are involved. These partners should be proficient in both the mother tongue and source language."
     },
-    "callToActionSection":{
-      "title" : "Join Our Training Program",
+    "callToActionSection": {
+      "title": "Join Our Training Program",
       "description": "  Are you passionate about bringing God's Word to your community? Our training programs can equip you with the skills and knowledge needed to make an eternal impact.",
-      "buttonCTA" : "Apply for Training"
+      "buttonCTA": "Apply for Training"
     }
   },
-  "footer" : {
-    "description" : " Translating God's Word into every language and bringing transformation to communities.",
-    "registration" : "Registered In",
-   "allRightsReserved": "All Rights Reserved.",
+  "openBibleEducation": {
+    "heroSection": {
+      "title": "Open Bible Education",
+      "subtitle": " In Partnership with Thirdmill Institute",
+      "description": " Empowering Church Leaders with Free, High-Quality Biblical Training"
+    },
+    "overviewSection" : {
+      "title" : "What Is Open Bible Education?",
+      "description1" : " At Bahtraku, we believe every believer—especially those in underserved, remote, or indigenous communities—should have access to solid, biblical education, regardless of location, background, or financial status.",
+ "description2" : "Open Bible Education is a non-formal biblical training program that provides free, high-quality theological education using Thirdmill Institute's globally recognized curriculum. This program is designed to equip church leaders, emerging pastors, and Bible teachers who may not have the opportunity to attend formal seminaries.",
+  "description3" : " Through our partnership with Thirdmill Institute, we offer a clear path for spiritual growth, theological depth, and ministry readiness for communities across Indonesia and beyond.",
+  "cardTitle" : "Partnership with Thirdmill Institute",
+  "cardDescription" : "Thirdmill Institute is a ministry committed to providing free, seminary level biblical education to the world.",
+  "cardPoint1" : "Theological video lessons",
+  "cardPoint2" : "Downloadable study guides",
+  "cardPoint3" : "Interactive assessments",
+  "cardPoint4" : "Mentorship and discussion groups",
+  "cardPoint5" : "Certificates of completion"
+
+        }
+  },
+  "footer": {
+    "description": " Translating God's Word into every language and bringing transformation to communities.",
+    "registration": "Registered In",
+    "allRightsReserved": "All Rights Reserved.",
     "registration1": "Indonesia Ministry of Law and Human Rights No. AHU-0034498.AH.01.12 (2022)",
     "registration2": "Indonesia Ministry of Religious Affairs, Director General for Guidance of the Christian Community Letter No. 363 (2023)",
     "registration3": "Fellowship of Indonesian Evangelical Churches and Institutions (Persekutuan Gereja dan Lembaga Injili Indonesia / PGLII)",
     "registration4": "Registered Member of the Indonesian Christian Council for Stewardship & Accountability (ICCSA) since 2023",
     "registration5": "Associate Member of Asia Evangelical Alliance",
     "privacyPolicyTitle": "Privacy Policy",
-      "connectWithUs": "Connect With Us"
+    "connectWithUs": "Connect With Us"
   }
 }
