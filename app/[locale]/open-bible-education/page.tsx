@@ -220,29 +220,29 @@ export default function OpenBibleEducationPage() {
 
           {/* Who Can Join Section */}
           <div className="bg-white rounded-lg shadow-lg p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Who Can Join?</h3>
-            <p className="text-lg text-gray-700 mb-6 text-center">
+            <h3 className="text-2xl font-bold text-[#162c36] mb-6 text-center">Who Can Join?</h3>
+            <p className="text-lg text-[#2f687a] mb-6 text-center">
               The program is open to anyone with a teachable heart and desire to grow:
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center">
                 <GraduationCap className="h-8 w-8 text-blue-600 mx-auto mb-2" />
-                <h4 className="font-semibold text-gray-900">Pastors & Church Planters</h4>
+                <h4 className="font-semibold text-[#284551]">Pastors & Church Planters</h4>
               </div>
               <div className="text-center">
                 <Users className="h-8 w-8 text-green-600 mx-auto mb-2" />
-                <h4 className="font-semibold text-gray-900">Elders & Ministry Leaders</h4>
+                <h4 className="font-semibold text-[#284551]">Elders & Ministry Leaders</h4>
               </div>
               <div className="text-center">
                 <BookOpen className="h-8 w-8 text-purple-600 mx-auto mb-2" />
-                <h4 className="font-semibold text-gray-900">Bible Teachers</h4>
+                <h4 className="font-semibold text-[#284551]">Bible Teachers</h4>
               </div>
               <div className="text-center">
                 <Heart className="h-8 w-8 text-red-600 mx-auto mb-2" />
-                <h4 className="font-semibold text-gray-900">Growing Believers</h4>
+                <h4 className="font-semibold text-[#284551]">Growing Believers</h4>
               </div>
             </div>
-            <p className="text-center text-gray-600 mt-6 italic">
+            <p className="text-center text-[#2f778b] mt-6 italic">
               No prior academic background is required—just a teachable heart and a desire to grow.
             </p>
           </div>
