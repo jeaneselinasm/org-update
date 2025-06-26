@@ -88,11 +88,11 @@ export default function OpenBibleEducationPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-green-900 to-green-700 text-white py-16">
+      <section className="bg-gradient-to-r from-[#2f687a] to-[#51adbf] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <School className="h-16 w-16 mx-auto mb-6 text-green-200" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Open Bible Education</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Thirdmill Institute</h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto text-green-100">
               Providing accessible biblical education and literacy programs to help communities understand and engage
               with Scripture in their own language.
