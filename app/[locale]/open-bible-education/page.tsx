@@ -1,5 +1,6 @@
 "use client"
 
+import Footer from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
@@ -16,6 +17,8 @@ import {
   FileText,
   Heart,
   Handshake,
+  BookOpenText,
+  Album
 } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
@@ -170,52 +173,55 @@ export default function OpenBibleEducationPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <BookOpen className="h-8 w-8 text-blue-500 mb-2" />
-                <CardTitle className="text-xl text-blue-900">Modular Curriculum</CardTitle>
+                <CardTitle className="text-xl text-blue-900">Foundation Certificate</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
                   Nine core modules from Thirdmill Institute covering essential theological topics:
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Biblical Interpretation</li>
-                  <li>• Old and New Testament Survey</li>
-                  <li>• Theology and Doctrine</li>
-                  <li>• Church Leadership</li>
-                  <li>• Christian Ethics and Evangelism</li>
+                  <li>• Biblical Foundations</li>
+                  <li>• Theological Foundations</li>
+                  <li>• Old Testament Foundations</li>
+                  <li>• New Testament Foundations</li>
                 </ul>
               </CardContent>
             </Card>
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <Lightbulb className="h-8 w-8 text-green-500 mb-2" />
-                <CardTitle className="text-xl text-blue-900">Flexible Learning Model</CardTitle>
+                <BookOpenText className="h-8 w-8 text-green-500 mb-2" />
+                <CardTitle className="text-xl text-blue-900">Certificate in Biblical Studies</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">Study options designed to fit your schedule and circumstances:</p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Study at your own pace—individually or in small groups</li>
-                  <li>• Join guided cohorts facilitated by local mentors</li>
-                  <li>• Access materials online or via offline flash drives</li>
+                  <li>• Old Testament Narratvies </li>
+                  <li>• Old Testament Prophets </li>
+                  <li>• Pauline Studies </li>
+                  <li>• New Testament Epistles </li>
+                  <li>• Biblical Interpretation </li>
                 </ul>
               </CardContent>
             </Card>
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <Users className="h-8 w-8 text-purple-500 mb-2" />
-                <CardTitle className="text-xl text-blue-900">Contextualized Support</CardTitle>
+                <Album className="h-8 w-8 text-purple-500 mb-2" />
+                <CardTitle className="text-xl text-blue-900">Certificate in Theological Studies</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">Culturally relevant guidance for Indonesian contexts:</p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Local mentorship and facilitation</li>
-                  <li>• Materials adapted for Indonesian culture</li>
-                  <li>• Character and competency development</li>
-                  <li>• Available in multiple languages</li>
+                  <li>• The Doctrine of God</li>
+                  <li>• Christology</li>
+                  <li>• Pneumatology</li>
+                  <li>• Anthropology & Eschatology</li>
+                  <li>• Biblical Ethics</li>
                 </ul>
               </CardContent>
             </Card>
+            
           </div>
 
           {/* Who Can Join Section */}
@@ -297,7 +303,7 @@ export default function OpenBibleEducationPage() {
       </section>
 
       {/* Get Started Section */}
-      <section className="py-20 bg-[#daf0f3]">
+      <section className="py-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <BookOpen className="h-16 w-16 mx-auto mb-6 text-[#2b515f]" />
@@ -352,50 +358,7 @@ export default function OpenBibleEducationPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <h3 className="text-2xl font-bold mb-4">Bahtraku</h3>
-              <p className="text-gray-300">
-                Translating God's Word into every language across Indonesia, bringing hope and transformation to
-                communities.
-              </p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Registration Information</h4>
-              <p className="text-gray-300 text-sm">
-                Bahtraku Foundation
-                <br />
-                Registered Non-Profit Organization
-                <br />
-                License No: NPO-2019-IDN-001
-                <br />
-                Jakarta, Indonesia
-              </p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Connect With Us</h4>
-              <div className="flex space-x-4">
-                <Link href="#" className="text-gray-300 hover:text-white transition-colors">
-                  <MapPin className="h-6 w-6" />
-                </Link>
-                <Link href="#" className="text-gray-300 hover:text-white transition-colors">
-                  <Users className="h-6 w-6" />
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-6 mb-4 md:mb-0">
-              <Link href="#" className="text-gray-300 hover:text-white text-sm transition-colors">
-                Privacy Policy
-              </Link>
-            </div>
-            <div className="text-gray-300 text-sm">© 2025 Bahtraku. All rights reserved.</div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
