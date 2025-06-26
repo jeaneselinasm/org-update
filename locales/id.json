@@ -91,6 +91,85 @@
       "buttonCTA" : "Mendaftar Untuk Pelatihan"
     }
   },
+    "openBibleEducation": {
+    "heroSection": {
+      "title": "Pendidikan Alkitab Terbuka",
+      "subtitle": "Dalam Kemitraan dengan Thirdmill Institute",
+      "description": "Memberdayakan Para Pemimpin Gereja dengan Pelatihan Alkitab yang Gratis dan Berkualitas"
+    },
+    "overviewSection": {
+      "title": "Apa Itu Pendidikan Alkitab Terbuka?",
+      "description1": "Di Bahtraku, kami percaya bahwa setiap orang percaya - terutama mereka yang berada di komunitas yang kurang terlayani, terpencil, atau masyarakat adat - harus memiliki akses terhadap pendidikan yang solid dan alkitabiah, terlepas dari lokasi, latar belakang, atau status keuangannya.",
+      "description2": "Pendidikan Alkitab Terbuka adalah program pelatihan alkitabiah non-formal yang menyediakan pendidikan teologi berkualitas tinggi secara gratis dengan menggunakan kurikulum Thirdmill Institute yang telah diakui secara global. Program ini dirancang untuk memperlengkapi para pemimpin gereja, pendeta, pengajar Alkitab dan setiap orang percaya yang mungkin tidak memiliki kesempatan untuk mengikuti seminari formal",
+      "description3": "Melalui kemitraan dengan Thirdmill Institute, kami menawarkan jalur yang jelas untuk pertumbuhan rohani, kedalaman teologis, dan kesiapan pelayanan bagi komunitas di seluruh Indonesia dan sekitarnya.",
+      "cardTitle": "Kemitraan dengan Thirdmill Institute",
+      "cardDescription": "Thirdmill Institute adalah sebuah pelayanan yang berkomitmen untuk menyediakan pendidikan alkitabiah tingkat seminari secara gratis kepada dunia.",
+      "cardPoint1": "Video Pelajaran",
+      "cardPoint2": "Materi pembelajaran yang dapat diunduh",
+      "cardPoint3": "Penilaian interaktif",
+      "cardPoint4": "Kelompok bimbingan dan diskusi",
+      "cardPoint5": "Sertifikat kelulusan, jika nilai memenuhi persyaratan"
+    },
+    "programSection": {
+      "title": "Program - Program",
+      "subtitle": "Pendidikan teologi yang komprehensif yang dirancang untuk aplikasi pelayanan praktis",
+      "card1Title": "Sertifikat Dasar",
+      "card1Subtitle": "Terdiri dari empat mata kuliah pengantar dalam Alkitab dan Teologi :",
+      "card1Point1": "Dasar-dasar Alkitabiah",
+      "card1Point2": "Dasar-dasar Teologis",
+      "card1Point3": "Dasar-dasar Perjanjian Lama",
+      "card1Point4": "Dasar-dasar Perjanjian Baru",
+      "card2Title": "Sertifikat dalam Studi Alkitab",
+      "card2Subtitle": "Terdiri dari lima mata kuliah mengenai Alkitab :",
+      "card2Point1": "Narasi Perjanjian Lama",
+      "card2Point2": "Nabi-nabi Perjanjian Lama",
+      "card2Point3": "Studi Paulus",
+      "card2Point4": "Surat-surat Perjanjian Baru",
+      "card2Point5": "Penafsiran Alkitab",
+      "card3Title": "Sertifikat dalam Studi Teologi",
+      "card3Subtitle": "Terdiri dari lima mata kuliah tentang Teologi :",
+      "card3Point1": "Doktrin Tentang Tuhan",
+      "card3Point2": "Kristologi",
+      "card3Point3": "Pneumatologi",
+      "card3Point4": "Antropologi & Eskatologi",
+      "card3Point5": "Etika Alkitabiah"
+    },
+    "whoCanJoinSection" : {
+      "title" :  "Siapa yang dapat Bergabung ?",
+      "subtitle" : "Program ini terbuka bagi siapa saja yang memiliki hati yang dapat diajar dan keinginan untuk bertumbuh",
+      "pastors" : "Pendeta & Perintis Gereja",
+      "elders" : "Penatua & Pemimpin Pelayanan",
+      "teachers" : "Pengajar Alkitab",
+      "believers" : "Jemaat yang sedang bertumbuh",
+      "notes" : "Tidak ada latar belakang akademis yang dibutuhkan-hanya hati yang dapat diajar dan keinginan untuk bertumbuh."
+        },
+        "whyItMattersSection" : {
+          "title" : "Mengapa ini Penting?",
+          "subtitle" : "Membangun gereja yang berlandaskan Alkitab, dewasa secara rohani, dan siap bermisi",
+          "testimonyQuote" : "Landasan Alkitab yang kokoh sangat penting bagi gereja yang berkembang. Pendidikan Alkitab Terbuka memungkinkan kami untuk melatih para pemimpin bahkan di daerah-daerah yang paling terpencil sekalipun.",
+          "facilitator" : "Fasilitator Program, Wilayah Papua",
+          "contentTitle" : "Dampak Program",
+          "contentSubtitle" : "Program ini membantu memenuhi visi gereja yang berlandaskan Alkitab, dewasa secara rohani, dan siap bermisi, terutama di tempat-tempat yang tidak dapat diakses atau tidak terjangkau oleh pelatihan teologi. ",
+          "point1" : "Pendidikan teologi yang dapat diakses untuk semua komunitas",
+          "point2" : "Gratis, konten berkualitas tinggi setingkat seminari",
+          "point3" : "Berkonteks budaya bagi gereja-gereja di Indonesia",
+          "point4" : "Pembelajaran yang fleksibel bagi para pemimpin pelayanan yang sibuk"
+        },
+        "getStartedSection" : {
+          "title" : "Mari Memulai",
+          "subtitle" : "Apakah Anda siap untuk bertumbuh dalam Firman Tuhan dan melayani dengan lebih efektif?",
+          "downloadTitle" : "Unduh Bahan Studi",
+          "downloadSubtitle" : "Akses panduan belajar, pelajaran video, dan sumber daya untuk pembelajaran offline.",
+          "downloadButton" : "Unduh Sekarang",
+          "joinTitle" : "Gabung dengan Kelompok",
+          "joinSubtitle" : "Daftarkan diri Anda untuk mengikuti pembelajaran terbimbing dengan pembimbing dan sesama murid.",
+          "joinButton" : "Daftar Sekarang",
+           "partnerTitle" : "Bermitra dengan Kami",
+          "partnerSubtitle" : "Bantu perluas jangkauan pendidikan Alkitabiah ke lebih banyak komunitas.",
+          "partnerButton" : "Jadilah Mitra",
+          "notes" : "Mari memperlengkapi setiap suku, setiap gereja, dan setiap pemimpin untuk pekerjaan pelayanan bersama-sama."
+        }
+  },
    "footer" : {
     "description" : "Menerjemahkan Firman Tuhan ke dalam setiap bahasa dan membawa transformasi bagi setiap suku.",
     "registration" : "Terdaftar Pada",
