@@ -297,12 +297,12 @@ export default function OpenBibleEducationPage() {
       </section>
 
       {/* Get Started Section */}
-      <section className="py-20 bg-green-900 text-white">
+      <section className="py-20 bg-[#daf0f3]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <BookOpen className="h-16 w-16 mx-auto mb-6 text-green-200" />
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Get Started</h2>
-            <p className="text-xl mb-8 max-w-3xl mx-auto text-green-100">
+            <BookOpen className="h-16 w-16 mx-auto mb-6 text-[#2b515f]" />
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#284551]">Get Started</h2>
+            <p className="text-xl mb-8 max-w-3xl mx-auto text-[#2f687a]">
               Are you ready to grow in God's Word and serve more effectively?
             </p>
           </div>
@@ -341,7 +341,7 @@ export default function OpenBibleEducationPage() {
           </div>
 
           <div className="text-center">
-            <p className="text-xl mb-6 text-green-100">
+            <p className="text-xl mb-6 text-[#2f687a]">
               Let's equip every tribe, every church, and every leader for the work of the ministry—together.
             </p>
             <Button size="lg" className="bg-white text-green-900 hover:bg-gray-100">
