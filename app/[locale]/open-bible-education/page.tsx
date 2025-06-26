@@ -12,15 +12,11 @@ import {
   Lightbulb,
   CheckCircle,
   MapPin,
-  Award,
   School,
   FileText,
   Heart,
-  Library,
-  PenTool,
-  Smartphone,
+  Handshake,
 } from "lucide-react"
-import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 
@@ -91,11 +87,13 @@ export default function OpenBibleEducationPage() {
       <section className="bg-gradient-to-r from-[#2f687a] to-[#51adbf] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <School className="h-16 w-16 mx-auto mb-6 text-green-200" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Thirdmill Institute</h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto text-green-100">
-              Providing accessible biblical education and literacy programs to help communities understand and engage
-              with Scripture in their own language.
+            <School className="h-16 w-16 mx-auto mb-6 text-[#162c36]" />
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Open Bible Education</h1>
+            <p className="text-xl md:text-2xl max-w-3xl mx-auto text-[#daf0f3] mb-4">
+              In Partnership with Thirdmill Institute
+            </p>
+            <p className="text-lg md:text-xl max-w-4xl mx-auto text-[#162c36]">
+              Empowering Church Leaders with Free, High-Quality Biblical Training
             </p>
           </div>
         </div>
@@ -106,43 +104,51 @@ export default function OpenBibleEducationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Making Scripture Accessible</h2>
-              <p className="text-lg text-gray-700 mb-6">
-                Open Bible Education is our commitment to ensuring that translated Scripture doesn't just exist, but is
-                actively understood and applied by communities across Indonesia. We believe that literacy and biblical
-                education go hand in hand.
+              <h2 className="text-3xl md:text-4xl font-bold text-[#162c36] mb-6">What Is Open Bible Education?</h2>
+              <p className="text-lg text-[#2f687a] mb-6">
+                At Bahtraku, we believe every believer—especially those in underserved, remote, or indigenous
+                communities—should have access to solid, biblical education, regardless of location, background, or
+                financial status.
               </p>
-              <p className="text-lg text-gray-700 mb-6">
-                Through innovative educational programs, we help communities develop the skills needed to read, study,
-                and teach from their newly translated Scriptures. Our approach combines traditional teaching methods
-                with modern technology to reach learners of all ages and backgrounds.
+              <p className="text-lg text-[#2f687a] mb-6">
+                Open Bible Education is a non-formal biblical training program that provides free, high-quality
+                theological education using Thirdmill Institute's globally recognized curriculum. This program is
+                designed to equip church leaders, emerging pastors, and Bible teachers who may not have the opportunity
+                to attend formal seminaries.
               </p>
-              <p className="text-lg text-gray-700">
-                From basic literacy to advanced biblical studies, we provide comprehensive educational resources that
-                empower communities to become self-sustaining in their spiritual growth and biblical understanding.
+              <p className="text-lg text-[#2f687a]">
+                Through our partnership with Thirdmill Institute, we offer a clear path for spiritual growth,
+                theological depth, and ministry readiness for communities across Indonesia and beyond.
               </p>
             </div>
-            <div className="bg-green-50 rounded-lg p-8">
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center">
-                  <Users className="h-8 w-8 text-green-600 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-gray-900">15,847</div>
-                  <div className="text-sm text-gray-600">Students Educated</div>
+            <div className="bg-[#f0fafb] rounded-lg p-8">
+              <div className="text-center mb-6">
+                <h3 className="text-xl font-bold text-[#284551] mb-4">Partnership with Thirdmill Institute</h3>
+                <p className="text-[#2f687a] mb-4">
+                  Thirdmill Institute is a ministry committed to providing free, seminary-level biblical education to
+                  the world.
+                </p>
+              </div>
+              <div className="space-y-3">
+                <div className="flex items-center">
+                  <CheckCircle className="h-5 w-5 text-[#2f778b] mr-3" />
+                  <span className="text-gray-700">Theological video lessons</span>
                 </div>
-                <div className="text-center">
-                  <Library className="h-8 w-8 text-blue-600 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-gray-900">234</div>
-                  <div className="text-sm text-gray-600">Learning Centers</div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-5 w-5 text-[#2f778b] mr-3" />
+                  <span className="text-gray-700">Downloadable study guides</span>
                 </div>
-                <div className="text-center">
-                  <GraduationCap className="h-8 w-8 text-purple-600 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-gray-900">1,456</div>
-                  <div className="text-sm text-gray-600">Certified Teachers</div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-5 w-5 text-[#2f778b] mr-3" />
+                  <span className="text-gray-700">Interactive assessments</span>
                 </div>
-                <div className="text-center">
-                  <Award className="h-8 w-8 text-orange-600 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-gray-900">89%</div>
-                  <div className="text-sm text-gray-600">Literacy Rate</div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-5 w-5 text-[#2f778b] mr-3" />
+                  <span className="text-gray-700">Mentorship and discussion groups</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-5 w-5 text-[#2f778b] mr-3" />
+                  <span className="text-gray-700">Certificates of completion</span>
                 </div>
               </div>
             </div>
@@ -150,45 +156,47 @@ export default function OpenBibleEducationPage() {
         </div>
       </section>
 
-      {/* Education Programs */}
+      {/* Program Features */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Education Programs</h2>
-            <p className="text-xl text-gray-600">Comprehensive learning opportunities for all ages and skill levels</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Program Features</h2>
+            <p className="text-xl text-gray-600">
+              Comprehensive theological education designed for practical ministry application
+            </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <PenTool className="h-8 w-8 text-blue-500 mb-2" />
-                <CardTitle className="text-lg text-blue-900">Adult Literacy</CardTitle>
+                <BookOpen className="h-8 w-8 text-blue-500 mb-2" />
+                <CardTitle className="text-xl text-blue-900">Modular Curriculum</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  Basic reading and writing skills for adults using their mother tongue Scripture.
+                  Nine core modules from Thirdmill Institute covering essential theological topics:
                 </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Phonics and reading</li>
-                  <li>• Writing skills</li>
-                  <li>• Scripture reading</li>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li>• Biblical Interpretation</li>
+                  <li>• Old and New Testament Survey</li>
+                  <li>• Theology and Doctrine</li>
+                  <li>• Church Leadership</li>
+                  <li>• Christian Ethics and Evangelism</li>
                 </ul>
               </CardContent>
             </Card>
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <BookOpen className="h-8 w-8 text-green-500 mb-2" />
-                <CardTitle className="text-lg text-blue-900">Bible Study</CardTitle>
+                <Lightbulb className="h-8 w-8 text-green-500 mb-2" />
+                <CardTitle className="text-xl text-blue-900">Flexible Learning Model</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4">
-                  Structured Bible study programs using translated Scripture in local languages.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Inductive Bible study</li>
-                  <li>• Small group materials</li>
-                  <li>• Leadership training</li>
+                <p className="text-gray-600 mb-4">Study options designed to fit your schedule and circumstances:</p>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li>• Study at your own pace—individually or in small groups</li>
+                  <li>• Join guided cohorts facilitated by local mentors</li>
+                  <li>• Access materials online or via offline flash drives</li>
                 </ul>
               </CardContent>
             </Card>
@@ -196,233 +204,148 @@ export default function OpenBibleEducationPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Users className="h-8 w-8 text-purple-500 mb-2" />
-                <CardTitle className="text-lg text-blue-900">Children's Education</CardTitle>
+                <CardTitle className="text-xl text-blue-900">Contextualized Support</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4">
-                  Age-appropriate biblical education programs for children and youth.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Sunday school curriculum</li>
-                  <li>• Youth programs</li>
-                  <li>• Bible storytelling</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <Smartphone className="h-8 w-8 text-orange-500 mb-2" />
-                <CardTitle className="text-lg text-blue-900">Digital Learning</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600 mb-4">
-                  Technology-enhanced learning through mobile apps and digital resources.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Mobile Bible apps</li>
-                  <li>• Audio resources</li>
-                  <li>• Online courses</li>
+                <p className="text-gray-600 mb-4">Culturally relevant guidance for Indonesian contexts:</p>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li>• Local mentorship and facilitation</li>
+                  <li>• Materials adapted for Indonesian culture</li>
+                  <li>• Character and competency development</li>
+                  <li>• Available in multiple languages</li>
                 </ul>
               </CardContent>
             </Card>
           </div>
+
+          {/* Who Can Join Section */}
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Who Can Join?</h3>
+            <p className="text-lg text-gray-700 mb-6 text-center">
+              The program is open to anyone with a teachable heart and desire to grow:
+            </p>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="text-center">
+                <GraduationCap className="h-8 w-8 text-blue-600 mx-auto mb-2" />
+                <h4 className="font-semibold text-gray-900">Pastors & Church Planters</h4>
+              </div>
+              <div className="text-center">
+                <Users className="h-8 w-8 text-green-600 mx-auto mb-2" />
+                <h4 className="font-semibold text-gray-900">Elders & Ministry Leaders</h4>
+              </div>
+              <div className="text-center">
+                <BookOpen className="h-8 w-8 text-purple-600 mx-auto mb-2" />
+                <h4 className="font-semibold text-gray-900">Bible Teachers</h4>
+              </div>
+              <div className="text-center">
+                <Heart className="h-8 w-8 text-red-600 mx-auto mb-2" />
+                <h4 className="font-semibold text-gray-900">Growing Believers</h4>
+              </div>
+            </div>
+            <p className="text-center text-gray-600 mt-6 italic">
+              No prior academic background is required—just a teachable heart and a desire to grow.
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* Learning Approach */}
+      {/* Why It Matters */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Learning Approach</h2>
-            <p className="text-xl text-gray-600">Culturally relevant and community-centered education</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why It Matters</h2>
+            <p className="text-xl text-gray-600">
+              Building biblically grounded, spiritually mature, mission-ready churches
+            </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Heart className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Heart Language Focus</h3>
-              <p className="text-gray-600">
-                All education is conducted in the learner's mother tongue, ensuring deep understanding and emotional
-                connection to the material.
-              </p>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="bg-blue-50 rounded-lg p-8">
+              <blockquote className="text-xl text-gray-700 italic mb-6">
+                "A solid biblical foundation is vital for a thriving church. Open Bible Education allows us to train
+                leaders even in the most remote areas."
+              </blockquote>
+              <cite className="text-blue-900 font-semibold">— Program Facilitator, Papua Region</cite>
             </div>
-
-            <div className="text-center">
-              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Users className="h-8 w-8 text-green-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Community-Based</h3>
-              <p className="text-gray-600">
-                Programs are designed and implemented within communities, respecting local customs and building on
-                existing social structures.
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Program Impact</h3>
+              <p className="text-lg text-gray-700 mb-6">
+                This program helps fulfill the vision of a biblically grounded, spiritually mature, and mission-ready
+                church, especially in places where theological training has been inaccessible or unaffordable.
               </p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Lightbulb className="h-8 w-8 text-purple-600" />
+              <div className="space-y-4">
+                <div className="flex items-center">
+                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
+                  <span className="text-gray-700">Accessible theological education for remote communities</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
+                  <span className="text-gray-700">Free, high-quality seminary-level content</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
+                  <span className="text-gray-700">Culturally contextualized for Indonesian churches</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
+                  <span className="text-gray-700">Flexible learning for busy ministry leaders</span>
+                </div>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Practical Application</h3>
-              <p className="text-gray-600">
-                Learning is immediately applicable to daily life, with emphasis on how Scripture addresses real-world
-                challenges and opportunities.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <GraduationCap className="h-8 w-8 text-orange-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Train the Trainer</h3>
-              <p className="text-gray-600">
-                We equip local leaders to become teachers and trainers, ensuring program sustainability and cultural
-                authenticity.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-red-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <FileText className="h-8 w-8 text-red-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Comprehensive Materials</h3>
-              <p className="text-gray-600">
-                We develop culturally appropriate learning materials, including textbooks, workbooks, and multimedia
-                resources.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="h-8 w-8 text-teal-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Continuous Assessment</h3>
-              <p className="text-gray-600">
-                Regular evaluation and feedback ensure that programs meet learner needs and achieve educational
-                objectives.
-              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Impact Stories */}
-      <section className="py-20 bg-gray-50">
+      {/* Get Started Section */}
+      <section className="py-20 bg-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Impact Stories</h2>
-            <p className="text-xl text-gray-600">See how education is transforming communities</p>
+            <BookOpen className="h-16 w-16 mx-auto mb-6 text-green-200" />
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Get Started</h2>
+            <p className="text-xl mb-8 max-w-3xl mx-auto text-green-100">
+              Are you ready to grow in God's Word and serve more effectively?
+            </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="pt-6">
-                <div className="flex items-start space-x-4">
-                  <Image
-                    src="/placeholder.svg?height=80&width=80"
-                    alt="Ibu Ratna"
-                    width={80}
-                    height={80}
-                    className="rounded-full"
-                  />
-                  <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">Ibu Ratna Sari</h3>
-                    <p className="text-blue-900 text-sm font-medium mb-3">Adult Literacy Graduate - Lampung</p>
-                    <p className="text-gray-700 italic">
-                      "At 45, I learned to read for the first time using the Lampung Bible. Now I teach other women in
-                      my village. Reading God's Word in my own language has changed my life completely."
-                    </p>
-                  </div>
-                </div>
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <Card className="bg-white text-gray-900 hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6 text-center">
+                <FileText className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                <h3 className="text-xl font-semibold mb-3">Download Materials</h3>
+                <p className="text-gray-600 mb-4">
+                  Access study guides, video lessons, and resources for offline learning.
+                </p>
+                <Button className="w-full bg-blue-600 hover:bg-blue-700">📥 Download Now</Button>
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="pt-6">
-                <div className="flex items-start space-x-4">
-                  <Image
-                    src="/placeholder.svg?height=80&width=80"
-                    alt="Pak Andreas"
-                    width={80}
-                    height={80}
-                    className="rounded-full"
-                  />
-                  <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">Pak Andreas Rumbiak</h3>
-                    <p className="text-blue-900 text-sm font-medium mb-3">Bible Study Leader - Papua</p>
-                    <p className="text-gray-700 italic">
-                      "Our Bible study program has grown from 5 people to over 100. When people can study Scripture in
-                      Dani language, they understand God's love in a completely new way."
-                    </p>
-                  </div>
-                </div>
+            <Card className="bg-white text-gray-900 hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6 text-center">
+                <Users className="h-12 w-12 text-green-600 mx-auto mb-4" />
+                <h3 className="text-xl font-semibold mb-3">Join a Cohort</h3>
+                <p className="text-gray-600 mb-4">
+                  Register for guided learning with local mentors and fellow students.
+                </p>
+                <Button className="w-full bg-green-600 hover:bg-green-700">📚 Register Today</Button>
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="pt-6">
-                <div className="flex items-start space-x-4">
-                  <Image
-                    src="/placeholder.svg?height=80&width=80"
-                    alt="Maria"
-                    width={80}
-                    height={80}
-                    className="rounded-full"
-                  />
-                  <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">Maria Kairupan</h3>
-                    <p className="text-blue-900 text-sm font-medium mb-3">Children's Teacher - North Sulawesi</p>
-                    <p className="text-gray-700 italic">
-                      "The children's program has transformed our Sunday school. Kids are excited to learn Bible stories
-                      in Minahasa language, and they're teaching their parents at home!"
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="pt-6">
-                <div className="flex items-start space-x-4">
-                  <Image
-                    src="/placeholder.svg?height=80&width=80"
-                    alt="Pak David"
-                    width={80}
-                    height={80}
-                    className="rounded-full"
-                  />
-                  <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">Pak David Siahaan</h3>
-                    <p className="text-blue-900 text-sm font-medium mb-3">Digital Learning Coordinator - Sumatra</p>
-                    <p className="text-gray-700 italic">
-                      "The mobile Bible app has reached remote villages we couldn't visit physically. Young people are
-                      especially engaged with the digital format and audio features."
-                    </p>
-                  </div>
-                </div>
+            <Card className="bg-white text-gray-900 hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6 text-center">
+                <Handshake className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+                <h3 className="text-xl font-semibold mb-3">Partner with Us</h3>
+                <p className="text-gray-600 mb-4">Help expand the reach of biblical education to more communities.</p>
+                <Button className="w-full bg-purple-600 hover:bg-purple-700">🤝 Become a Partner</Button>
               </CardContent>
             </Card>
           </div>
-        </div>
-      </section>
 
-      {/* Call to Action */}
-      <section className="py-20 bg-green-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <BookOpen className="h-16 w-16 mx-auto mb-6 text-green-200" />
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Support Bible Education</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto text-green-100">
-            Help us expand biblical education programs across Indonesia. Your support can help more communities access
-            and understand God's Word in their heart language.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="text-center">
+            <p className="text-xl mb-6 text-green-100">
+              Let's equip every tribe, every church, and every leader for the work of the ministry—together.
+            </p>
             <Button size="lg" className="bg-white text-green-900 hover:bg-gray-100">
-              Support Our Programs
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-green-900">
-              Become a Teacher
+              👉 Contact Us to Get Started
             </Button>
           </div>
         </div>
