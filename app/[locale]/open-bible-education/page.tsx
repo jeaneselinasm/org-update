@@ -177,7 +177,7 @@ export default function OpenBibleEducationPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  Nine core modules from Thirdmill Institute covering essential theological topics:
+                 Consists of four introductory courses in Bible and Theology :
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li>• Biblical Foundations</li>
@@ -194,7 +194,7 @@ export default function OpenBibleEducationPage() {
                 <CardTitle className="text-xl text-blue-900">Certificate in Biblical Studies</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4">Study options designed to fit your schedule and circumstances:</p>
+                <p className="text-gray-600 mb-4">Consists of five courses on the Bible:</p>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li>• Old Testament Narratvies </li>
                   <li>• Old Testament Prophets </li>
