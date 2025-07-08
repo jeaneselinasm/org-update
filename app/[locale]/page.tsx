@@ -50,8 +50,8 @@ export default function HomePage() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  md:mt-60 text-white font-bold">
           <div className="font-light">
             <RotateWords text={theroSection('titleRotateText')} words={[theroSection('titleRotateWords1'), theroSection('titleRotateWords2')]} />
-            <h1 className="text-3xl md:text-5xl mb-6 text-white ">              
-             {theroSection('title')}
+            <h1 className="text-3xl md:text-5xl mb-6 text-white ">
+              {theroSection('title')}
             </h1>
             <h2 className="text-lg md:text-2xl mb-4 max-w-3xl  text-left text-white">
               {theroSection('subtitle')}
@@ -72,11 +72,11 @@ export default function HomePage() {
                 <Link href="#ministry"> {theroSection('getInvolvedButton')}</Link>
               </Button>
               <Button_v2
-               
+
                 className="bg-orange-400"
               >
-                <Link href="https://bahtraku.bible/"  legacyBehavior passHref> 
-                <a target="_blank" rel="noopener noreferrer"> {theroSection('donateButton')}</a>
+                <Link href="https://bahtraku.bible/" legacyBehavior passHref>
+                  <a target="_blank" rel="noopener noreferrer"> {theroSection('donateButton')}</a>
                 </Link>
               </Button_v2>
             </div>
@@ -92,7 +92,7 @@ export default function HomePage() {
               {tprojectSection('title')}
             </h2>
             <p className="text-xl text-gray-600">
-                {tprojectSection('subtitle')}
+              {tprojectSection('subtitle')}
             </p>
           </div>
 
@@ -115,7 +115,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
-             
+
               <NumberTicker
                 value={4700}
                 decimalPlaces={0}
@@ -124,7 +124,7 @@ export default function HomePage() {
               >
                 {" "}
               </NumberTicker>
-      
+
               <div className="text-sm text-gray-600">  {tprojectSection('statisticTrainedPeople')}</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
@@ -139,10 +139,10 @@ export default function HomePage() {
               </NumberTicker>
               <div className="text-sm text-gray-600"> {tprojectSection('statisticActiveProjects')}</div>
             </div>
-             <div className="bg-white rounded-lg shadow-md p-6 text-center">
+            <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
-             
-              
+
+
               <NumberTicker
                 value={585}
                 decimalPlaces={0}
@@ -151,7 +151,7 @@ export default function HomePage() {
               >
                 {" "}
               </NumberTicker>
-      
+
               <div className="text-sm text-gray-600"> {tprojectSection('statisticActiveTranslator')}</div>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
@@ -162,7 +162,7 @@ export default function HomePage() {
                 startValue={0}
                 className="text-2xl font-bold text-gray-900"
               >
-                {" "} 
+                {" "}
               </NumberTicker>
               <div className="text-sm text-gray-600">{tprojectSection('statisticNT')}</div>
             </div>
@@ -223,41 +223,41 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-4">
-               {tministrySection('title')}
+              {tministrySection('title')}
             </h2>
             <p className="text-xl text-gray-600">
-             {tministrySection('subtitle')}
+              {tministrySection('subtitle')}
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 ">
             <MorphingDialogBasicOne
-              title= {tministrySection('bibleTranslationTrainingTitle')}
+              title={tministrySection('bibleTranslationTrainingTitle')}
               subtitle={tministrySection('bibleTranslationTrainingSubtitle')}
               image="/bible-translation-training.png"
               description={tministrySection('bibleTranslationTrainingDescription')}
-               link={`/${locale}/bible-translation-training`}
+              link={`/${locale}/bible-translation-training`}
             />
             <MorphingDialogBasicOne
               title={tministrySection('openBibleEducationTitle')}
               subtitle={tministrySection('openBibleEducationSubtitle')}
               image="/14.png"
-              description="a"
-              link=""
+              description=""
+              link={`/${locale}/open-bible-education`}
             />
 
             <MorphingDialogBasicOne
               title={tministrySection('communityDevelopmentTitle')}
               subtitle={tministrySection('communityDevelopmentSubtitle')}
               image="/installment.png"
-               description="a"
-               link=""
+              description=""
+              link={`/${locale}/community-development`}
             />
           </div>
         </div>
       </section>
 
       {/* Testimony Section */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-orange-500">
@@ -342,10 +342,10 @@ export default function HomePage() {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
-     <Footer/>
+      <Footer />
     </div>
   );
 }
