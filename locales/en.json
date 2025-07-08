@@ -170,6 +170,62 @@
           "notes" : "Let's equip every tribe, every church, and every leader for the work of the ministry—together."
         }
   },
+  "communityDevelopmentPage": {
+    "heroSection" : {
+      "title" : "Community Development",
+      "description" : "As part of our holistic approach to ministry, Bahtraku actively supports community development programs in regions where Bible translation is taking place. We believe that spiritual transformation must go hand in hand with practical impact."
+    },
+    "overviewSection" : {
+      "title" : "Holistic Ministry Approach",
+      "description" : "Our community projects aim to improve livelihoods, ensure access to basic needs, and encourage self-sufficiency. We believe that when communities thrive physically and economically, they are better positioned to receive and engage with God's Word."
+     },
+     "communityProjectSection" : {
+      "title" : "Current Community Projects",
+      "description" : "Making a tangible difference in communities across Indonesia",
+      "waterProjectTitle" : "Water Supply Project",
+      "waterProjectContent" : "  In partnership with the New Zealand Aid Programme, Bahtraku is supporting the installation of clean water systems for communities in Sumba.",
+      "waterProjectDetail1" : "Reduces waterborne diseases",
+      "waterProjectDetail2" : "Improves hygiene and health",
+      "waterProjectDetail3" : "Relieves burden on women and children",
+      "waterProjectDetail4" : "More time for education, work, and ministry",
+      "waterProjectNote" : "Clean water means healthier families and more opportunities for community development.",
+      "pigFarmTitle" : "Pig Farming Initiative",
+      "pigFarmContent" : "We are developing a sustainable pig farming initiative in Seretan, aimed at supporting local families with a steady source of income and food.",
+      "pigFarmDetail1" : "Training and resource access",
+      "pigFarmDetail2" : "Small farm management skills",
+      "pigFarmDetail3" : "Improved economic resilience",
+      "pigFarmDetail4" : "Better nutritional outcomes",
+      "pigFarmNote" : "Equipping families to manage sustainable farms that improve both income and nutrition.",
+      "catfishFisheryTitle" : "Catfish Fishery",
+      "catfishFisheryContent" : "In Manokwari, we are helping communities establish catfish farming systems, utilizing affordable and replicable methods.",
+      "catfishFisheryDetail1" : "Affordable aquaculture methods",
+      "catfishFisheryDetail2" : "Protein-rich food production",
+      "catfishFisheryDetail3" : "Income generation opportunities",
+      "catfishFisheryDetail4" : "Replicable small-scale systems",
+      "catfishFisheryNote" : "Empowering local households through sustainable aquaculture practices.",
+       "starlinkInstallmentTitle" : "Starlink Connectivity",
+      "starlinkInstallmentContent" : "Access to the internet is a critical need in remote areas. Bahtraku's first Starlink installation in Pendau marks a milestone in bridging the digital divide.",
+      "starlinkInstallmentDetail1" : "Access to training materials",
+      "starlinkInstallmentDetail2" : "Coordination with partners",
+      "starlinkInstallmentDetail3" : "Income generation opportunities",
+      "starlinkInstallmentDetail4" : "Community connectivity",
+      "starlinkInstallmentNote" : " Connecting remote communities to global resources and opportunities."
+     },
+     "ourImpactSection" : {
+      "title" : "Our Impact",
+      "description" : "Transforming communities through practical development",
+      "cleanWater" : "Clean Water",
+      "cleanWaterDesc" : "Healthier families and communities",
+      "connectivity" : "Connectivity",
+      "connectivityDesc" : "Bridging the digital divide"
+     },
+     "callToActionSection" : {
+      "title" : "Join Us",
+      "description" : " Your support enables us to continue these impactful initiatives. Whether through prayer, donation, or partnership, you can be part of the transformation happening across Indonesia. Let's bring the Word and lasting hope to every tribe.",
+      "contactUsButton" : "Contact Us",
+      "donateNowButton" : "Donate Now"
+      }
+  },
   "footer": {
     "description": " Translating God's Word into every language and bringing transformation to communities.",
     "registration": "Registered In",
