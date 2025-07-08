@@ -19,11 +19,17 @@ import {
   CheckCircle,
   Sprout,
 } from "lucide-react"
+import { useTranslations } from "next-intl"
 import Link from "next/link"
 import { useState } from "react"
 
 export default function CommunityDevelopmentPage() {
   const [language, setLanguage] = useState("en")
+const tHeroSection = useTranslations('communityDevelopmentPage.heroSection')
+const tCommunityProjectSection = useTranslations('communityDevelopmentPage.communityProjectSection')
+const tOurImpactSection = useTranslations('communityDevelopmentPage.ourImpactSection')
+const tCallToActionSection = useTranslations('communityDevelopmentPage.callToActionSection')
+
 
   return (
     <div className="min-h-screen bg-white">
@@ -34,11 +40,9 @@ export default function CommunityDevelopmentPage() {
       <section className="bg-gradient-to-r from-blue-100 to-blue-50 text-orange-400  py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 ">🌱 Community Development</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 ">🌱 {tHeroSection('title')}</h1>
             <p className="text-xl md:text-2xl max-w-4xl mx-auto">
-              As part of our holistic approach to ministry, Bahtraku actively supports community development programs in
-              regions where Bible translation is taking place. We believe that spiritual transformation must go hand in
-              hand with practical impact.
+             {tHeroSection('description')}
             </p>
           </div>
         </div>
@@ -62,8 +66,8 @@ export default function CommunityDevelopmentPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Current Community Projects</h2>
-            <p className="text-xl text-gray-600"> Making a tangible difference in communities across Indonesia</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">  {tCommunityProjectSection('title')}</h2>
+            <p className="text-xl text-gray-600"> {tCommunityProjectSection('description')}</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -73,36 +77,35 @@ export default function CommunityDevelopmentPage() {
                 <div className="flex items-center space-x-3">
                   <Droplets className="h-8 w-8 text-blue-500" />
                   <div>
-                    <CardTitle className="text-xl text-blue-900">💧 Water Supply Project</CardTitle>
+                    <CardTitle className="text-xl text-blue-900">{tCommunityProjectSection('waterProjectTitle')}</CardTitle>
                     <p className="text-sm text-gray-600">Sumba</p>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 mb-4">
-                  In partnership with the New Zealand Aid Programme, Bahtraku is supporting the installation of clean
-                  water systems for communities in Sumba.
+                 {tCommunityProjectSection('waterProjectContent')}
                 </p>
                 <div className="space-y-2 mb-4">
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Reduces waterborne diseases</span>
+                    <span> {tCommunityProjectSection('waterProjectDetail1')}</span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Improves hygiene and health</span>
+                    <span> {tCommunityProjectSection('waterProjectDetail2')}</span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Relieves burden on women and children</span>
+                    <span> {tCommunityProjectSection('waterProjectDetail3')}</span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>More time for education, work, and ministry</span>
+                    <span> {tCommunityProjectSection('waterProjectDetail4')}</span>
                   </div>
                 </div>
                 <p className="text-sm text-gray-600 italic">
-                  Clean water means healthier families and more opportunities for community development.
+                 {tCommunityProjectSection('waterProjectNote')}
                 </p>
               </CardContent>
             </Card>
@@ -113,36 +116,35 @@ export default function CommunityDevelopmentPage() {
                 <div className="flex items-center space-x-3">
                   <Sprout className="h-8 w-8 text-green-500" />
                   <div>
-                    <CardTitle className="text-xl text-blue-900">🐖 Pig Farming Initiative</CardTitle>
+                    <CardTitle className="text-xl text-blue-900">🐖 {tCommunityProjectSection('pigFarmTitle')}</CardTitle>
                     <p className="text-sm text-gray-600">Seretan</p>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 mb-4">
-                  We are developing a sustainable pig farming initiative in Seretan, aimed at supporting local families
-                  with a steady source of income and food.
+                  {tCommunityProjectSection('pigFarmContent')}
                 </p>
                 <div className="space-y-2 mb-4">
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Training and resource access</span>
+                    <span>{tCommunityProjectSection('pigFarmDetail1')}</span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Small farm management skills</span>
+                    <span>{tCommunityProjectSection('pigFarmDetail2')}</span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Improved economic resilience</span>
+                    <span>{tCommunityProjectSection('pigFarmDetail3')}</span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Better nutritional outcomes</span>
+                    <span>{tCommunityProjectSection('pigFarmDetail4')}</span>
                   </div>
                 </div>
                 <p className="text-sm text-gray-600 italic">
-                  Equipping families to manage sustainable farms that improve both income and nutrition.
+                  {tCommunityProjectSection('pigFarmNote')}
                 </p>
               </CardContent>
             </Card>
@@ -153,36 +155,35 @@ export default function CommunityDevelopmentPage() {
                 <div className="flex items-center space-x-3">
                   <Fish className="h-8 w-8 text-blue-600" />
                   <div>
-                    <CardTitle className="text-xl text-blue-900">🐟 Catfish Fishery</CardTitle>
+                    <CardTitle className="text-xl text-blue-900">🐟   {tCommunityProjectSection('catfishFisheryTitle')} </CardTitle>
                     <p className="text-sm text-gray-600">Manokwari</p>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 mb-4">
-                  In Manokwari, we are helping communities establish catfish farming systems, utilizing affordable and
-                  replicable methods.
+                 {tCommunityProjectSection('catfishFisheryContent')} 
                 </p>
                 <div className="space-y-2 mb-4">
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Affordable aquaculture methods</span>
+                    <span>   {tCommunityProjectSection('catfishFisheryDetail1')} </span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Protein-rich food production</span>
+                    <span>  {tCommunityProjectSection('catfishFisheryDetail2')}</span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Income generation opportunities</span>
+                    <span>  {tCommunityProjectSection('catfishFisheryDetail3')}</span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Replicable small-scale systems</span>
+                    <span>  {tCommunityProjectSection('catfishFisheryDetail4')}</span>
                   </div>
                 </div>
                 <p className="text-sm text-gray-600 italic">
-                  Empowering local households through sustainable aquaculture practices.
+                 {tCommunityProjectSection('catfishFisheryNote')}
                 </p>
               </CardContent>
             </Card>
@@ -193,36 +194,34 @@ export default function CommunityDevelopmentPage() {
                 <div className="flex items-center space-x-3">
                   <Wifi className="h-8 w-8 text-purple-500" />
                   <div>
-                    <CardTitle className="text-xl text-blue-900">🌐 Starlink Connectivity</CardTitle>
-                    <p className="text-sm text-gray-600">Pendau</p>
+                    <CardTitle className="text-xl text-blue-900"> {tCommunityProjectSection('starlinkInstallmentTitle')}</CardTitle>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 mb-4">
-                  Access to the internet is a critical need in remote areas. Bahtraku's first Starlink installation in
-                  Pendau marks a milestone in bridging the digital divide.
+                 {tCommunityProjectSection('starlinkInstallmentContent')}
                 </p>
                 <div className="space-y-2 mb-4">
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Access to training materials</span>
+                    <span>{tCommunityProjectSection('starlinkInstallmentDetail1')}</span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Coordination with partners</span>
+                    <span>{tCommunityProjectSection('starlinkInstallmentDetail2')}</span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Advanced translation work</span>
+                    <span>{tCommunityProjectSection('starlinkInstallmentDetail3')}</span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    <span>Community connectivity</span>
+                    <span>{tCommunityProjectSection('starlinkInstallmentDetail4')}</span>
                   </div>
                 </div>
                 <p className="text-sm text-gray-600 italic">
-                  Connecting remote communities to global resources and opportunities.
+                 {tCommunityProjectSection('starlinkInstallmentNote')}
                 </p>
               </CardContent>
             </Card>
@@ -234,8 +233,8 @@ export default function CommunityDevelopmentPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Impact</h2>
-            <p className="text-xl text-gray-600">Transforming communities through practical development</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{tOurImpactSection('title')}</h2>
+            <p className="text-xl text-gray-600">{tOurImpactSection('description')}</p>
           </div>
 
           <div className="grid md:grid-cols-2 items-center">
@@ -243,8 +242,8 @@ export default function CommunityDevelopmentPage() {
               <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Droplets className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900">Clean Water</h3>
-              <p className="text-gray-600">Healthier families and communities</p>
+              <h3 className="text-2xl font-bold text-gray-900">{tOurImpactSection('cleanWater')}</h3>
+              <p className="text-gray-600">{tOurImpactSection('cleanWaterDesc')}</p>
             </div>
 
            
@@ -253,8 +252,8 @@ export default function CommunityDevelopmentPage() {
               <div className="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Wifi className="h-8 w-8 text-purple-600" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900">Connectivity</h3>
-              <p className="text-gray-600">Bridging the digital divide</p>
+              <h3 className="text-2xl font-bold text-gray-900">{tOurImpactSection('connectivity')}</h3>
+              <p className="text-gray-600">{tOurImpactSection('connectivityDesc')}</p>
             </div>
 
             
@@ -266,15 +265,13 @@ export default function CommunityDevelopmentPage() {
       <section className="py-20 bg-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Handshake className="h-16 w-16 mx-auto mb-6 text-green-200" />
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">🤝 Join Us</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">🤝 {tCallToActionSection('title')}</h2>
           <p className="text-xl mb-8 max-w-4xl mx-auto text-green-100">
-            Your support enables us to continue these impactful initiatives. Whether through prayer, donation, or
-            partnership, you can be part of the transformation happening across Indonesia. Let's bring the Word and
-            lasting hope to every tribe.
+          {tCallToActionSection('description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-green-900 hover:bg-gray-100">
-              <Mail className="h-5 w-5 mr-2" />📩 Contact Us
+              <Mail className="h-5 w-5 mr-2" />{tCallToActionSection('contactUsButton')}
             </Button>
             <Button
               size="lg"
@@ -282,7 +279,7 @@ export default function CommunityDevelopmentPage() {
               className="border-white text-white hover:bg-white hover:text-green-900 bg-transparent"
             >
               <Heart className="h-5 w-5 mr-2" />
-              ❤️ Donate Now
+              {tCallToActionSection('donateNowButton')}
             </Button>
             <Button
               size="lg"
