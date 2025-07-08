@@ -1,6 +1,7 @@
 "use client"
 
 import Footer from "@/components/footer"
+import ResponsiveNavigation from "@/components/navigation-bar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
@@ -27,62 +28,7 @@ export default function CommunityDevelopmentPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm border-b sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex-shrink-0">
-              <Link href="/">
-                <h1 className="text-2xl font-bold text-blue-900">Bahtraku</h1>
-              </Link>
-            </div>
-            <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-8">
-                <Link
-                  href="/about"
-                  className="text-gray-700 hover:text-blue-900 px-3 py-2 text-sm font-medium transition-colors"
-                >
-                  About
-                </Link>
-                <Link
-                  href="/get-involved"
-                  className="text-gray-700 hover:text-blue-900 px-3 py-2 text-sm font-medium transition-colors"
-                >
-                  Get Involved
-                </Link>
-                <Link
-                  href="#translations"
-                  className="text-gray-700 hover:text-blue-900 px-3 py-2 text-sm font-medium transition-colors"
-                >
-                  Translations
-                </Link>
-                <div className="flex items-center space-x-4">
-                  <Select value={language} onValueChange={setLanguage}>
-                    <SelectTrigger className="w-20 h-9 border-gray-300">
-                      <div className="flex items-center space-x-1">
-                        <Globe className="h-4 w-4 text-gray-600" />
-                        <SelectValue />
-                      </div>
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="en">EN</SelectItem>
-                      <SelectItem value="id">ID</SelectItem>
-                    </SelectContent>
-                  </Select>
-                  <Button className="bg-blue-900 hover:bg-blue-800">Contact</Button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-      {/* Back Navigation */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <Link href="/" className="inline-flex items-center text-blue-900 hover:text-blue-700 transition-colors">
-          <ArrowLeft className="h-4 w-4 mr-2" />
-          Back to Home
-        </Link>
-      </div>
+<ResponsiveNavigation/>
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-green-900 to-green-700 text-white py-16">
