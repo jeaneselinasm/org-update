@@ -170,6 +170,62 @@
           "notes" : "Mari memperlengkapi setiap suku, setiap gereja, dan setiap pemimpin untuk pekerjaan pelayanan bersama-sama."
         }
   },
+    "communityDevelopmentPage": {
+    "heroSection" : {
+      "title" : " Pengembangan Komunitas",
+      "description" : "Sebagai bagian dari pendekatan pelayanan, Bahtraku secara aktif mendukung program pengembangan komunitas di wilayah-wilayah di mana penerjemahan Alkitab sedang berlangsung. Kami percaya bahwa transformasi rohani harus berjalan seiring dengan dampak nyata. Proyek-proyek komunitas kami bertujuan untuk meningkatkan taraf hidup, memastikan akses terhadap kebutuhan dasar, dan mendorong kemandirian masyarakat."
+    },
+    "overviewSection" : {
+      "title" : "Holistic Ministry Approach",
+      "description" : "Our community projects aim to improve livelihoods, ensure access to basic needs, and encourage self-sufficiency. We believe that when communities thrive physically and economically, they are better positioned to receive and engage with God's Word."
+     },
+     "communityProjectSection" : {
+      "title" : "Proyek Komunitas Saat Ini",
+      "description" : "Membuat perbedaan nyata di masyarakat di seluruh Indonesia",
+      "waterProjectTitle" : "Proyek Penyediaan Air Bersih",
+      "waterProjectContent" : "Bekerja sama dengan Program Bantuan Selandia Baru, Bahtraku mendukung pemasangan sistem air bersih untuk masyarakat di Sumba.",
+      "waterProjectDetail1" : "Mengurangi penyakit yang ditularkan melalui air",
+      "waterProjectDetail2" : "Meningkatkan kebersihan dan kesehatan",
+      "waterProjectDetail3" : "Meringankan beban perempuan dan anak-anak",
+      "waterProjectDetail4" : "Lebih banyak waktu untuk pendidikan, pekerjaan, dan pelayanan",
+      "waterProjectNote" : "Air bersih berarti keluarga yang lebih sehat dan lebih banyak kesempatan untuk pengembangan masyarakat.",
+      "pigFarmTitle" : "Peternakan Babi",
+      "pigFarmContent" : "Kami mengembangkan inisiatif peternakan babi yang berkelanjutan di Seretan, tidak hanya untuk mendukung keluarga lokal dengan sumber pendapatan dan makanan yang dapat diandalkan, tetapi juga untuk membantu mendanai proyek-proyek penerjemahan Alkitab yang dilakukan oleh Bahtraku. Inisiatif ini menciptakan sinergi yang kuat antara pemberdayaan masyarakat dan dampak misi, di mana sumber daya lokal berkontribusi pada kemajuan Firman Tuhan dalam bahasa-bahasa suku.",
+      "pigFarmDetail1" : "Pelatihan dan akses sumber daya",
+      "pigFarmDetail2" : "Keterampilan manajemen peternakan kecil",
+      "pigFarmDetail3" : "Peningkatan ketahanan ekonomi",
+      "pigFarmDetail4" : "Kontribusi terhadap keberlanjutan pekerjaan penerjemahan Alkitab di Indonesia",
+      "pigFarmNote" : "Melalui program ini, kami memperlengkapi keluarga-keluarga untuk mengelola peternakan yang berkelanjutan yang tidak hanya bermanfaat bagi rumah tangga mereka, namun juga menjadi bagian yang berarti dari gerakan penerjemahan Alkitab.",
+      "catfishFisheryTitle" : "Perikanan Lele",
+      "catfishFisheryContent" : "Di Manokwari, kami membantu masyarakat membangun sistem budidaya ikan lele dengan metode yang terjangkau dan dapat direplikasi.",
+      "catfishFisheryDetail1" : "Metode akuakultur yang terjangkau",
+      "catfishFisheryDetail2" : "Produksi makanan kaya protein",
+      "catfishFisheryDetail3" : "Peluang menghasilkan pendapatan",
+      "catfishFisheryDetail4" : "Sistem skala kecil yang dapat direplikasi",
+      "catfishFisheryNote" : "Memberdayakan rumah tangga setempat melalui praktik akuakultur yang berkelanjutan.",
+       "starlinkInstallmentTitle" : "Pemasangan Starlink",
+      "starlinkInstallmentContent" : "Akses ke internet adalah kebutuhan penting di daerah terpencil. Instalasi Starlink pertama Bahtraku di Pendau menandai tonggak sejarah dalam menjembatani kesenjangan digital.",
+      "starlinkInstallmentDetail1" : "Akses ke materi pelatihan",
+      "starlinkInstallmentDetail2" : "Koordinasi dengan mitra",
+      "starlinkInstallmentDetail3" : "Peluang peningkatan pendapatan",
+      "starlinkInstallmentDetail4" : "Konektivitas masyarakat",
+      "starlinkInstallmentNote" : "Menghubungkan masyarakat terpencil dengan sumber daya dan peluang global."
+     },
+     "ourImpactSection" : {
+      "title" : "Dampak Kami",
+      "description" : "Mengubah masyarakat melalui pengembangan praktis",
+      "cleanWater" : "Air Bersih",
+      "cleanWaterDesc" : "Keluarga dan masyarakat yang lebih sehat",
+      "connectivity" : "Intenet",
+      "connectivityDesc" : "Menjembatani kesenjangan digital"
+     },
+     "callToActionSection" : {
+      "title" : "Bergabunglah Bersama Kami",
+      "description" : "Dukungan Anda memungkinkan kami untuk melanjutkan inisiatif-inisiatif yang berdampak ini. Baik melalui doa, donasi, atau kemitraan, Anda dapat menjadi bagian dari transformasi yang terjadi di seluruh Indonesia. Mari membawa Firman dan pengharapan yang kekal kepada setiap suku.",
+      "contactUsButton" : "Hubungi Kami",
+      "donateNowButton" : "Donasi Sekarang"
+      }
+  },
    "footer" : {
     "description" : "Menerjemahkan Firman Tuhan ke dalam setiap bahasa dan membawa transformasi bagi setiap suku.",
     "registration" : "Terdaftar Pada",

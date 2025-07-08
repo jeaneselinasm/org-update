@@ -238,7 +238,7 @@ export default function CommunityDevelopmentPage() {
             <p className="text-xl text-gray-600">Transforming communities through practical development</p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 items-center">
             <div className="text-center">
               <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Droplets className="h-8 w-8 text-blue-600" />
@@ -247,13 +247,7 @@ export default function CommunityDevelopmentPage() {
               <p className="text-gray-600">Healthier families and communities</p>
             </div>
 
-            <div className="text-center">
-              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Sprout className="h-8 w-8 text-green-600" />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900">Food Security</h3>
-              <p className="text-gray-600">Sustainable income and nutrition</p>
-            </div>
+           
 
             <div className="text-center">
               <div className="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
@@ -263,13 +257,7 @@ export default function CommunityDevelopmentPage() {
               <p className="text-gray-600">Bridging the digital divide</p>
             </div>
 
-            <div className="text-center">
-              <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Heart className="h-8 w-8 text-orange-600" />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900">Holistic Care</h3>
-              <p className="text-gray-600">Physical and spiritual transformation</p>
-            </div>
+            
           </div>
         </div>
       </section>
