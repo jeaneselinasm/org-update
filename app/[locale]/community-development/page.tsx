@@ -262,32 +262,33 @@ const tCallToActionSection = useTranslations('communityDevelopmentPage.callToAct
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-green-900 text-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Handshake className="h-16 w-16 mx-auto mb-6 text-green-200" />
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">🤝 {tCallToActionSection('title')}</h2>
-          <p className="text-xl mb-8 max-w-4xl mx-auto text-green-100">
+          <Handshake className="h-16 w-16 mx-auto mb-6 text-orange-400" />
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-blue-900">{tCallToActionSection('title')}</h2>
+          <p className="text-xl mb-8 max-w-4xl mx-auto text-gray-600">
           {tCallToActionSection('description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-green-900 hover:bg-gray-100">
+            <Button size="lg" className="bg-gray-300 text-blue-900 hover:bg-gray-400">
               <Mail className="h-5 w-5 mr-2" />{tCallToActionSection('contactUsButton')}
             </Button>
+            <a
+           href="https://bahtraku.bible/"
+  target="_blank"
+  rel="noopener noreferrer"
+            >
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-green-900 bg-transparent"
+              className="border-white  hover:bg-white hover:text-blue-900 bg-gray-300
+              "
             >
               <Heart className="h-5 w-5 mr-2" />
               {tCallToActionSection('donateNowButton')}
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-green-900 bg-transparent"
-            >
-              <Globe className="h-5 w-5 mr-2" />🌐 Visit Website
-            </Button>
+            </a>
+            
           </div>
         </div>
       </section>
