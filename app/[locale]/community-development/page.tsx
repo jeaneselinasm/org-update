@@ -31,12 +31,11 @@ export default function CommunityDevelopmentPage() {
 <ResponsiveNavigation/>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-green-900 to-green-700 text-white py-16">
+      <section className="bg-gradient-to-r from-blue-100 to-blue-50 text-orange-400  py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <Sprout className="h-16 w-16 mx-auto mb-6 text-green-200" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">🌱 Community Development</h1>
-            <p className="text-xl md:text-2xl max-w-4xl mx-auto text-green-100">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 ">🌱 Community Development</h1>
+            <p className="text-xl md:text-2xl max-w-4xl mx-auto">
               As part of our holistic approach to ministry, Bahtraku actively supports community development programs in
               regions where Bible translation is taking place. We believe that spiritual transformation must go hand in
               hand with practical impact.
@@ -46,10 +45,10 @@ export default function CommunityDevelopmentPage() {
       </section>
 
       {/* Overview Section */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Holistic Ministry Approach</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6">Holistic Ministry Approach</h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
               Our community projects aim to improve livelihoods, ensure access to basic needs, and encourage
               self-sufficiency. We believe that when communities thrive physically and economically, they are better
@@ -57,14 +56,14 @@ export default function CommunityDevelopmentPage() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Current Projects */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Current Community Projects</h2>
-            <p className="text-xl text-gray-600">Making a tangible difference in communities across Indonesia</p>
+            <p className="text-xl text-gray-600"> Making a tangible difference in communities across Indonesia</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
