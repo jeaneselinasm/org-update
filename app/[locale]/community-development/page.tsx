@@ -8,18 +8,14 @@ import {
   ArrowLeft,
   Heart,
   Users,
-  Home,
-  Stethoscope,
-  GraduationCap,
-  Sprout,
-  CheckCircle,
+  Droplets,
+  Fish,
+  Wifi,
   MapPin,
-  Award,
+  Mail,
   Handshake,
-  Building,
-  Lightbulb,
-  Target,
-  TrendingUp,
+  CheckCircle,
+  Sprout,
 } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
@@ -88,14 +84,15 @@ export default function CommunityDevelopmentPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-orange-900 to-orange-700 text-white py-16">
+      <section className="bg-gradient-to-r from-green-900 to-green-700 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <Heart className="h-16 w-16 mx-auto mb-6 text-orange-200" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Community Development</h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto text-orange-100">
-              Supporting holistic community development through education, healthcare, and economic empowerment
-              alongside Bible translation work.
+            <Sprout className="h-16 w-16 mx-auto mb-6 text-green-200" />
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">🌱 Community Development</h1>
+            <p className="text-xl md:text-2xl max-w-4xl mx-auto text-green-100">
+              As part of our holistic approach to ministry, Bahtraku actively supports community development programs in
+              regions where Bible translation is taking place. We believe that spiritual transformation must go hand in
+              hand with practical impact.
             </p>
           </div>
         </div>
@@ -104,335 +101,261 @@ export default function CommunityDevelopmentPage() {
       {/* Overview Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Holistic Community Transformation</h2>
-              <p className="text-lg text-gray-700 mb-6">
-                At Bahtraku, we believe that Bible translation is most effective when it occurs within the context of
-                comprehensive community development. Our approach addresses not only spiritual needs but also the
-                physical, educational, and economic challenges that communities face.
-              </p>
-              <p className="text-lg text-gray-700 mb-6">
-                Through integrated development programs, we work alongside communities to build sustainable solutions
-                that improve quality of life while creating an environment where God's Word can take root and flourish.
-              </p>
-              <p className="text-lg text-gray-700">
-                Our community development initiatives are designed to be culturally appropriate, environmentally
-                sustainable, and community-led, ensuring that positive changes continue long after our direct
-                involvement ends.
-              </p>
-            </div>
-            <div className="bg-orange-50 rounded-lg p-8">
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center">
-                  <Users className="h-8 w-8 text-orange-600 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-gray-900">89,456</div>
-                  <div className="text-sm text-gray-600">People Served</div>
-                </div>
-                <div className="text-center">
-                  <Home className="h-8 w-8 text-blue-600 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-gray-900">347</div>
-                  <div className="text-sm text-gray-600">Communities</div>
-                </div>
-                <div className="text-center">
-                  <Building className="h-8 w-8 text-green-600 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-gray-900">156</div>
-                  <div className="text-sm text-gray-600">Projects Completed</div>
-                </div>
-                <div className="text-center">
-                  <Award className="h-8 w-8 text-purple-600 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-gray-900">78%</div>
-                  <div className="text-sm text-gray-600">Sustainability Rate</div>
-                </div>
-              </div>
-            </div>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Holistic Ministry Approach</h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+              Our community projects aim to improve livelihoods, ensure access to basic needs, and encourage
+              self-sufficiency. We believe that when communities thrive physically and economically, they are better
+              positioned to receive and engage with God's Word.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Development Areas */}
+      {/* Current Projects */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Development Focus Areas</h2>
-            <p className="text-xl text-gray-600">Comprehensive programs addressing community needs</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Current Community Projects</h2>
+            <p className="text-xl text-gray-600">Making a tangible difference in communities across Indonesia</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Water Supply Project */}
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <GraduationCap className="h-8 w-8 text-blue-500 mb-2" />
-                <CardTitle className="text-lg text-blue-900">Education</CardTitle>
+                <div className="flex items-center space-x-3">
+                  <Droplets className="h-8 w-8 text-blue-500" />
+                  <div>
+                    <CardTitle className="text-xl text-blue-900">💧 Water Supply Project</CardTitle>
+                    <p className="text-sm text-gray-600">Sumba</p>
+                  </div>
+                </div>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4">
-                  Building schools, training teachers, and providing educational resources.
+                <p className="text-gray-700 mb-4">
+                  In partnership with the New Zealand Aid Programme, Bahtraku is supporting the installation of clean
+                  water systems for communities in Sumba.
                 </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• School construction</li>
-                  <li>• Teacher training</li>
-                  <li>• Educational materials</li>
-                  <li>• Scholarship programs</li>
-                </ul>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Reduces waterborne diseases</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Improves hygiene and health</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Relieves burden on women and children</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>More time for education, work, and ministry</span>
+                  </div>
+                </div>
+                <p className="text-sm text-gray-600 italic">
+                  Clean water means healthier families and more opportunities for community development.
+                </p>
               </CardContent>
             </Card>
 
+            {/* Pig Farming Project */}
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <Stethoscope className="h-8 w-8 text-red-500 mb-2" />
-                <CardTitle className="text-lg text-blue-900">Healthcare</CardTitle>
+                <div className="flex items-center space-x-3">
+                  <Sprout className="h-8 w-8 text-green-500" />
+                  <div>
+                    <CardTitle className="text-xl text-blue-900">🐖 Pig Farming Initiative</CardTitle>
+                    <p className="text-sm text-gray-600">Seretan</p>
+                  </div>
+                </div>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4">Improving access to healthcare and promoting community wellness.</p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Health clinics</li>
-                  <li>• Medical training</li>
-                  <li>• Preventive care</li>
-                  <li>• Health education</li>
-                </ul>
+                <p className="text-gray-700 mb-4">
+                  We are developing a sustainable pig farming initiative in Seretan, aimed at supporting local families
+                  with a steady source of income and food.
+                </p>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Training and resource access</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Small farm management skills</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Improved economic resilience</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Better nutritional outcomes</span>
+                  </div>
+                </div>
+                <p className="text-sm text-gray-600 italic">
+                  Equipping families to manage sustainable farms that improve both income and nutrition.
+                </p>
               </CardContent>
             </Card>
 
+            {/* Catfish Fishery */}
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <TrendingUp className="h-8 w-8 text-green-500 mb-2" />
-                <CardTitle className="text-lg text-blue-900">Economic Development</CardTitle>
+                <div className="flex items-center space-x-3">
+                  <Fish className="h-8 w-8 text-blue-600" />
+                  <div>
+                    <CardTitle className="text-xl text-blue-900">🐟 Catfish Fishery</CardTitle>
+                    <p className="text-sm text-gray-600">Manokwari</p>
+                  </div>
+                </div>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4">Creating sustainable income opportunities and financial literacy.</p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Microfinance programs</li>
-                  <li>• Skills training</li>
-                  <li>• Cooperative development</li>
-                  <li>• Market access</li>
-                </ul>
+                <p className="text-gray-700 mb-4">
+                  In Manokwari, we are helping communities establish catfish farming systems, utilizing affordable and
+                  replicable methods.
+                </p>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Affordable aquaculture methods</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Protein-rich food production</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Income generation opportunities</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Replicable small-scale systems</span>
+                  </div>
+                </div>
+                <p className="text-sm text-gray-600 italic">
+                  Empowering local households through sustainable aquaculture practices.
+                </p>
               </CardContent>
             </Card>
 
+            {/* Starlink Connectivity */}
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <Sprout className="h-8 w-8 text-green-600 mb-2" />
-                <CardTitle className="text-lg text-blue-900">Agriculture</CardTitle>
+                <div className="flex items-center space-x-3">
+                  <Wifi className="h-8 w-8 text-purple-500" />
+                  <div>
+                    <CardTitle className="text-xl text-blue-900">🌐 Starlink Connectivity</CardTitle>
+                    <p className="text-sm text-gray-600">Pendau</p>
+                  </div>
+                </div>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4">Improving food security through sustainable farming practices.</p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Crop diversification</li>
-                  <li>• Organic farming</li>
-                  <li>• Irrigation systems</li>
-                  <li>• Farmer training</li>
-                </ul>
+                <p className="text-gray-700 mb-4">
+                  Access to the internet is a critical need in remote areas. Bahtraku's first Starlink installation in
+                  Pendau marks a milestone in bridging the digital divide.
+                </p>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Access to training materials</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Coordination with partners</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Advanced translation work</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    <span>Community connectivity</span>
+                  </div>
+                </div>
+                <p className="text-sm text-gray-600 italic">
+                  Connecting remote communities to global resources and opportunities.
+                </p>
               </CardContent>
             </Card>
           </div>
         </div>
       </section>
 
-      {/* Our Approach */}
+      {/* Impact Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Development Approach</h2>
-            <p className="text-xl text-gray-600">Community-centered and sustainable development principles</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Impact</h2>
+            <p className="text-xl text-gray-600">Transforming communities through practical development</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Users className="h-8 w-8 text-blue-600" />
+                <Droplets className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Community Ownership</h3>
-              <p className="text-gray-600">
-                Communities lead their own development process, with our role being to facilitate, support, and provide
-                resources as needed.
-              </p>
+              <h3 className="text-2xl font-bold text-gray-900">Clean Water</h3>
+              <p className="text-gray-600">Healthier families and communities</p>
             </div>
 
             <div className="text-center">
               <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Target className="h-8 w-8 text-green-600" />
+                <Sprout className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Needs-Based Planning</h3>
-              <p className="text-gray-600">
-                All programs are designed based on comprehensive community assessments and prioritized according to
-                local needs and preferences.
-              </p>
+              <h3 className="text-2xl font-bold text-gray-900">Food Security</h3>
+              <p className="text-gray-600">Sustainable income and nutrition</p>
             </div>
 
             <div className="text-center">
               <div className="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Handshake className="h-8 w-8 text-purple-600" />
+                <Wifi className="h-8 w-8 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Partnership Model</h3>
-              <p className="text-gray-600">
-                We work in partnership with local governments, NGOs, and community organizations to maximize impact and
-                avoid duplication.
-              </p>
+              <h3 className="text-2xl font-bold text-gray-900">Connectivity</h3>
+              <p className="text-gray-600">Bridging the digital divide</p>
             </div>
 
             <div className="text-center">
               <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Lightbulb className="h-8 w-8 text-orange-600" />
+                <Heart className="h-8 w-8 text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Capacity Building</h3>
-              <p className="text-gray-600">
-                We focus on building local capacity and skills, ensuring that communities can continue and expand
-                development efforts independently.
-              </p>
+              <h3 className="text-2xl font-bold text-gray-900">Holistic Care</h3>
+              <p className="text-gray-600">Physical and spiritual transformation</p>
             </div>
-
-            <div className="text-center">
-              <div className="bg-red-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="h-8 w-8 text-red-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Sustainability Focus</h3>
-              <p className="text-gray-600">
-                All projects are designed with long-term sustainability in mind, including environmental, economic, and
-                social sustainability.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Heart className="h-8 w-8 text-teal-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Holistic Integration</h3>
-              <p className="text-gray-600">
-                Development work is integrated with Bible translation efforts, creating synergies that benefit both
-                spiritual and physical well-being.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Success Stories */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Community Success Stories</h2>
-            <p className="text-xl text-gray-600">Real transformation happening across Indonesia</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="pt-6">
-                <div className="mb-4">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Desa Harapan Baru, Central Kalimantan</h3>
-                  <p className="text-blue-900 text-sm font-medium mb-3">Healthcare & Education Project</p>
-                </div>
-                <p className="text-gray-700 mb-4">
-                  "Before Bahtraku came, our children had to walk 15 kilometers to school and we had no medical care.
-                  Now we have our own school and health clinic. Most importantly, we can read God's Word in Dayak
-                  language while our community grows stronger every day."
-                </p>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center text-sm text-gray-500">
-                    <MapPin className="h-4 w-4 mr-1" />
-                    <span>Central Kalimantan</span>
-                  </div>
-                  <div className="flex items-center text-sm text-green-600">
-                    <CheckCircle className="h-4 w-4 mr-1" />
-                    <span>Completed 2023</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="pt-6">
-                <div className="mb-4">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Kampung Sejahtera, West Papua</h3>
-                  <p className="text-blue-900 text-sm font-medium mb-3">Economic Development & Agriculture</p>
-                </div>
-                <p className="text-gray-700 mb-4">
-                  "The microfinance program helped us start a coffee cooperative. Now 50 families have steady income,
-                  and we're using our profits to support the Bible translation work. Our community is thriving both
-                  spiritually and economically."
-                </p>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center text-sm text-gray-500">
-                    <MapPin className="h-4 w-4 mr-1" />
-                    <span>West Papua</span>
-                  </div>
-                  <div className="flex items-center text-sm text-green-600">
-                    <CheckCircle className="h-4 w-4 mr-1" />
-                    <span>Ongoing since 2022</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="pt-6">
-                <div className="mb-4">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Desa Mandiri, East Nusa Tenggara</h3>
-                  <p className="text-blue-900 text-sm font-medium mb-3">Water & Sanitation Project</p>
-                </div>
-                <p className="text-gray-700 mb-4">
-                  "Clean water changed everything for us. Our children are healthier, women have more time for other
-                  activities, and our Bible study groups have grown because people aren't constantly worried about
-                  finding water."
-                </p>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center text-sm text-gray-500">
-                    <MapPin className="h-4 w-4 mr-1" />
-                    <span>East Nusa Tenggara</span>
-                  </div>
-                  <div className="flex items-center text-sm text-green-600">
-                    <CheckCircle className="h-4 w-4 mr-1" />
-                    <span>Completed 2024</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="pt-6">
-                <div className="mb-4">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Kampung Berkembang, North Sumatra</h3>
-                  <p className="text-blue-900 text-sm font-medium mb-3">Integrated Development Program</p>
-                </div>
-                <p className="text-gray-700 mb-4">
-                  "Our village transformation has been incredible - new school, health clinic, improved farming
-                  techniques, and small businesses. But the greatest change is seeing our people understand Scripture in
-                  Batak language and live it out daily."
-                </p>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center text-sm text-gray-500">
-                    <MapPin className="h-4 w-4 mr-1" />
-                    <span>North Sumatra</span>
-                  </div>
-                  <div className="flex items-center text-sm text-green-600">
-                    <CheckCircle className="h-4 w-4 mr-1" />
-                    <span>Ongoing since 2021</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-orange-900 text-white">
+      <section className="py-20 bg-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Building className="h-16 w-16 mx-auto mb-6 text-orange-200" />
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Partner with Us in Community Development</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto text-orange-100">
-            Join us in creating sustainable, holistic transformation in communities across Indonesia. Together, we can
-            address both spiritual and physical needs while building stronger, more resilient communities.
+          <Handshake className="h-16 w-16 mx-auto mb-6 text-green-200" />
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">🤝 Join Us</h2>
+          <p className="text-xl mb-8 max-w-4xl mx-auto text-green-100">
+            Your support enables us to continue these impactful initiatives. Whether through prayer, donation, or
+            partnership, you can be part of the transformation happening across Indonesia. Let's bring the Word and
+            lasting hope to every tribe.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-orange-900 hover:bg-gray-100">
-              Support Our Projects
+            <Button size="lg" className="bg-white text-green-900 hover:bg-gray-100">
+              <Mail className="h-5 w-5 mr-2" />📩 Contact Us
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-orange-900"
+              className="border-white text-white hover:bg-white hover:text-green-900 bg-transparent"
             >
-              Partner with Us
+              <Heart className="h-5 w-5 mr-2" />
+              ❤️ Donate Now
+            </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white text-white hover:bg-white hover:text-green-900 bg-transparent"
+            >
+              <Globe className="h-5 w-5 mr-2" />🌐 Visit Website
             </Button>
           </div>
         </div>
