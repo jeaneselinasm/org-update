@@ -241,7 +241,7 @@ export default function HomePage() {
               title={tministrySection('openBibleEducationTitle')}
               subtitle={tministrySection('openBibleEducationSubtitle')}
               image="/14.png"
-              description="description"
+              description="desc"
               link={`/${locale}/open-bible-education`}
             />
 
@@ -249,7 +249,7 @@ export default function HomePage() {
               title={tministrySection('communityDevelopmentTitle')}
               subtitle={tministrySection('communityDevelopmentSubtitle')}
               image="/installment.png"
-              description="description"
+              description="desc"
               link={`/${locale}/community-development`}
             />
           </div>
